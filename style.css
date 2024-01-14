@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+.menu-bar{
+    text-align: center;
+}
+.menu-bar ul{ 
+    display: inline-flex;
+    list-style: none;
+}
+.menu-bar ul li{
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.menu-bar i {
+    margin-right: 5px;
+}
+.active, .menu-bar ul li:hover{
+    background-color: aqua;
+    border-radius: 3px;
+}
+.sub-menu{
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 30px;
+    visibility: hidden;
+    z-index: 1;
+}
+li:hover ul.sub-menu{
+    opacity: 1;
+    top: 80px;
+    visibility: visible;
+}
+.sub-menu li{
+    float: none;
+    width: 100%;
+}
