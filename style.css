@@ -35,6 +35,7 @@
 
 .sub-menu{
     display: none;
+    padding-right: 50px;
 }
 .menu-bar ul li:hover .sub-menu{
     display: block;
@@ -47,15 +48,23 @@
 }
 
 .menu-bar ul li:hover .sub-menu ul li{
-    width: 150px;
+    width: 70px;
     padding: 10px;
 }
-/* .home-title{
+ .home-title{
     font-family: 'Dancing Script', cursive;
     color:EB7154;
-} */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 300px;
+} 
+.home-title .quote{
+    text-shadow: 0 0 20px #EF993D , 0 0 40px white;
 
-
+}
+.home-title .quote .what{
+    margin-left: 23px;
+}
 .book-button{
     height: 30px;
     width: 100px;
