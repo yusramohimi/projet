@@ -3,6 +3,13 @@
     margin: 0;
     /* box-sizing: border-box; */
 }
+.home-body{
+    background-image: linear-gradient(rgba(0,0,0,0.70),rgba(0,0,0,0.70)),
+    url(picture/6.jpg);
+    background-size: cover;
+    
+    
+}
 .menu-bar{
     text-align: center;
 }
@@ -17,29 +24,43 @@
 }
 .menu-bar ul li a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .menu-bar i {
     margin-right: 5px;
 }
 .active, .menu-bar ul li:hover{
-    background-color: aqua;
     border-radius: 3px;
 }
+
 .sub-menu{
-    left: 0;
-    opacity: 0;
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu{
+    display: block;
     position: absolute;
-    top: 30px;
-    visibility: hidden;
-    z-index: 1;
+    background-color: azure;
 }
-li:hover ul.sub-menu{
-    opacity: 1;
-    top: 80px;
-    visibility: visible;
+.menu-bar ul li:hover .sub-menu ul{
+    display: block;
+    margin: 10px;
 }
-.sub-menu li{
-    float: none;
-    width: 100%;
+
+.menu-bar ul li:hover .sub-menu ul li{
+    width: 150px;
+    padding: 10px;
+}
+/* .home-title{
+    font-family: 'Dancing Script', cursive;
+    color:EB7154;
+} */
+
+
+.book-button{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: EB7154;
+    border: none;
+    color: white;
 }
