@@ -6,24 +6,30 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="icons/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Nunito&family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body class="home-body">
-    <header>
+    <header class="home-header">
+        <div class="logo">
+            <h1>WorldFlavors Hub</h1>
+        </div>
         <div class="menu-bar">
             <ul>
-                <li class="active"><a href=""><i class="fa-solid fa-house"></i>Home</a></li>
-                <li><a href=""><i class="fa-solid fa-circle-info"></i>About</a></li>
-                <li><a href=""><i class="fa-solid fa-caret-down"></i>Menu</a>
+                <li><a href="homepage.html"><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a href="#"><i class="fa-solid fa-caret-down"></i>Menu</a>
                     <div class="sub-menu">
                         <ul>
-                            <li><a href="#"></a>Asiatique</li>
-                            <li><a href="#"></a>Americain</li>
-                            <li><a href="#"></a>Italien</li>
-                            <li><a href="#"></a>Healthy</li>
+                            <li><a href="menu-asiatique.html">Asiatique</a></li>
+                            <li><a href="menu-americain.html">Americain</a></li>
+                            <li><a href="menu-italien.html">Italien</a></li>
+                            <li><a href="menu-healthy.html">Healthy</a></li>
                         </ul>
                     </div>
                 </li>
+                <li><a href="about.html"><i class="fa-solid fa-circle-info"></i>About</a></li>
                 <li><a href=""><i class="fa-solid fa-champagne-glasses"></i>Events</a></li>
                 <li><a href=""><i class="fa-solid fa-images"></i>Gallery</a></li>
                 <li><a href=""><i class="fa-sharp fa-solid fa-address-book"></i>Contact</a></li>
@@ -32,8 +38,19 @@
         </div>
     </header>
     <div class="home-title">
-        <h1><span>WorldFlavors</span> Hub</h1>
-        <h1 class="quote">YOU ARE <br><span class="what">WHAT</span> <br> YOU EAT</h1>
+        <div class="name-welcome">
+            <h1><span class="welcome">Welcome to </span><span class="worldflavors-hub">WorldFlavors Hub</span> </h1>
+            <h4>We are thrilled to open our restaurant and welcome you to enjoy our delicious food!</h4>
+            <div class="buttons">
+                <a href="#"><button class="first-button">Book a table</button></a>
+                <a href="#"><button class="second-button">Event Request</button></a>
+            </div>
+
+        </div>
+        <div class="quote-description">
+            <h1 class="quote">YOU ARE <br><span class="what">WHAT</span> <br> YOU EAT</h1>
+            <h4 class="description">focus on better quality food</h4>
+        </div>
     </div>
 </body>
 </html>

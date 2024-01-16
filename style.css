@@ -4,14 +4,25 @@
     /* box-sizing: border-box; */
 }
 .home-body{
-    background-image: linear-gradient(rgba(0,0,0,0.70),rgba(0,0,0,0.70)),
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
     url(picture/6.jpg);
     background-size: cover;
-    
+     
+}
+.home-header{
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    font-family:  'Dancing Script', cursive;
+    color:#EF993D;
     
 }
 .menu-bar{
     text-align: center;
+    font-family:'Nunito', sans-serif ;
 }
 .menu-bar ul{ 
     display: inline-flex;
@@ -25,6 +36,10 @@
 .menu-bar ul li a{
     text-decoration: none;
     color: white;
+}
+.menu-bar ul li a:hover{
+    text-decoration: underline;
+    color: #16583C;
 }
 .menu-bar i {
     margin-right: 5px;
@@ -40,7 +55,7 @@
 .menu-bar ul li:hover .sub-menu{
     display: block;
     position: absolute;
-    background-color: azure;
+    background-color:#EF993D;
 }
 .menu-bar ul li:hover .sub-menu ul{
     display: block;
@@ -52,24 +67,91 @@
     padding: 10px;
 }
  .home-title{
-    font-family: 'Dancing Script', cursive;
-    color:EB7154;
     display: flex;
     justify-content: space-around;
-    margin-top: 300px;
+    margin-top:250px;
 } 
-.home-title .quote{
-    text-shadow: 0 0 20px #EF993D , 0 0 40px white;
+
+.name-welcome{
+    display: flex;
+    flex-direction: column;
+    
+}
+.welcome{
+   font-family: 'Nunito', sans-serif;
+   color: #F4E4CD;
+   font-weight: bold;
+   font-size: 50px;
+}
+.worldflavors-hub{
+    font-family:  'Dancing Script', cursive;
+    color:#EF993D;
+    font-size: 70px;
 
 }
-.home-title .quote .what{
+
+.name-welcome h4{
+    color: #F4E4CD;
+    font-family: 'Nunito', sans-serif;
+}
+.quote-description {
+    display: flex;
+    flex-direction: column;
+    color: #F4E4CD;
+    
+}
+.quote-description .description{
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.quote-description .quote{
+    text-shadow: 0 0 20px #EF993D , 0 0 40px white;
+    margin-left: 35px;
+
+}
+.quote-description .quote .what{
     margin-left: 23px;
 }
 .book-button{
-    height: 30px;
-    width: 100px;
-    border-radius: 10px;
-    background-color: EB7154;
-    border: none;
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    background-color:#EF993D;
+    border:2px solid #EF993D;
     color: white;
+}
+.book-button:hover{
+    background-color:transparent ;
+}
+.buttons{
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+}
+
+.first-button{
+    border:2px solid #EF993D ;
+    border-radius: 20px;
+    height: 40px;
+    width: 120px;
+    background-color: transparent;
+    color: #F4E4CD;
+    font-weight: bold;  
+}
+.first-button:hover{
+    background-color:#EF993D ;
+}
+.second-button{
+    border:2px solid #EF993D ;
+    border-radius: 20px;
+    height: 40px;
+    width: 130px;
+    background-color: transparent;
+    color: #F4E4CD;
+    margin-left: 15px;
+    font-weight: bold;
+    
+}
+.second-button:hover{
+    background-color: #EF993D ; 
 }
