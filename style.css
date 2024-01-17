@@ -1,24 +1,34 @@
 *{
     padding: 0;
     margin: 0;
-    /* box-sizing: border-box; */
+    box-sizing: border-box; 
 }
 .home-body{
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
     url(picture/6.jpg);
     background-size: cover;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
      
 }
 .home-header{
+
     display: flex;
     justify-content: space-around;
-    position: sticky;
+    position: fixed;
     top: 0;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
 }
 .logo{
     font-family:  'Dancing Script', cursive;
     color:#EF993D;
-    
+}
+.logo h1{
+    margin-bottom: 0;
 }
 .menu-bar{
     text-align: center;
@@ -27,6 +37,8 @@
 .menu-bar ul{ 
     display: inline-flex;
     list-style: none;
+    align-items: center;
+    margin-bottom: 0;
 }
 .menu-bar ul li{
     width: 100px;
@@ -36,10 +48,11 @@
 .menu-bar ul li a{
     text-decoration: none;
     color: white;
+    transition: all 0.3s ease-in-out;
 }
 .menu-bar ul li a:hover{
-    text-decoration: underline;
-    color: #16583C;
+    text-decoration: none;
+    color: #99BEA9;
 }
 .menu-bar i {
     margin-right: 5px;
@@ -65,17 +78,17 @@
 .menu-bar ul li:hover .sub-menu ul li{
     width: 70px;
     padding: 10px;
+    transition: all 0.3 ease-in-out; 
 }
  .home-title{
     display: flex;
     justify-content: space-around;
-    margin-top:250px;
+    width: 100%;
 } 
 
 .name-welcome{
     display: flex;
     flex-direction: column;
-    
 }
 .welcome{
    font-family: 'Nunito', sans-serif;
@@ -93,6 +106,8 @@
 .name-welcome h4{
     color: #F4E4CD;
     font-family: 'Nunito', sans-serif;
+    max-width: 500px;
+    margin:10px 0 30px;
 }
 .quote-description {
     display: flex;
@@ -155,3 +170,135 @@
 .second-button:hover{
     background-color: #EF993D ; 
 }
+
+.parallax-image{
+    background-image: url(picture/background.jpeg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.parallax-image::after{
+    z-index: 0;
+    left: 0;
+    top:0;
+    content: '';
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.4);
+}
+
+ .parallax-text{
+    display: flex;
+    min-height: 500px;
+    justify-content: space-around;
+    align-items: center;
+     
+    
+} 
+.parallax-text .item{
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    z-index: 99999; 
+}
+.about-img1{
+    height: 400px;
+    width: 400px;
+    margin-top: 100px;
+    box-shadow: -8px 13px 29px 2px #EF993D, 16px -23px 10px 1px #F4E4CD;
+    transition: all 0.3 ease-in-out;
+    
+}
+.about-img1:hover{
+    transform: translate(15px,12px);
+    
+}
+.about-us h4{
+    width: 400px;
+    text-align: justify;
+    margin-top: 10px;
+    font-family:'Nunito', sans-serif ;
+}
+.about-us span{
+    font-family:  'Dancing Script', cursive;
+    color:#EF993D;
+    font-weight: bold;
+    font-size: 35px;
+    text-shadow: 0 0 20px #EF993D , 0 0 40px #EF993D;
+}
+
+.about-us{
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(239, 153, 61, 0.1);
+}
+.why-us span {
+    font-family:  'Dancing Script', cursive;
+    color:#EF993D;
+    font-weight: bold;
+    text-shadow: 0 0 20px #EF993D , 0 0 40px #EF993D;
+}
+.why-us{
+    margin: 50px;
+    font-family: 'Nunito', sans-serif;
+}
+.why-us h1{
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+}
+.all-containers{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.why-us .box {
+    margin: 20px;
+    padding: 50px 30px;
+    box-shadow: 3px 5px 15px 2px #99BEA9;
+    transition: all ease-in-out 0.3s;
+    height: 100%;
+  }
+  
+  .why-us .box .nbr {
+    font-size: 28px;
+    font-weight: bold;
+    color: #99BEA9;
+  }
+  
+  .why-us .box h4 {
+    color: #ffb03b;
+    font-family:'Dancing Script', cursive ;
+    font-size: 30px;
+    padding: 0;
+    margin: 20px 0;
+    
+  }
+  
+  .why-us .box p {
+     font-family:'Nunito', sans-serif ; 
+    color: #706f6f;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .why-us .box:hover {
+    background: #ffb03b;
+    padding: 30px 30px 70px 30px;
+    box-shadow: 10px 15px 30px rgba(146, 19, 75, 0.18);
+  }
+  
+  .why-us .box:hover .nbr,
+  .why-us .box:hover h4,
+  .why-us .box:hover p {
+    color: #fff;
+  }
