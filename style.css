@@ -5,16 +5,15 @@
 }
 .home-body{
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
-    url(picture/6.jpg);
+    url(picture/6-photoshop2.jpg);
     background-size: cover;
-    height: 100%;
-    justify-content: center;
+    height: 100%; 
     align-items: center;
     display: flex;
      
 }
 .home-header{
-
+    z-index: 99;
     display: flex;
     justify-content: space-around;
     position: fixed;
@@ -26,6 +25,16 @@
 .logo{
     font-family:  'Dancing Script', cursive;
     color:#EF993D;
+}
+.logo .hat{
+    width: 45px;
+    height: 40px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom:3px ;
+    padding-left: 0;
+    padding-right: 0d;
+
 }
 .logo h1{
     margin-bottom: 0;
@@ -56,9 +65,6 @@
 }
 .menu-bar i {
     margin-right: 5px;
-}
-.active, .menu-bar ul li:hover{
-    border-radius: 3px;
 }
 
 .sub-menu{
@@ -100,6 +106,8 @@
     font-family:  'Dancing Script', cursive;
     color:#EF993D;
     font-size: 70px;
+    text-shadow: 0 0 20px #EF993D , 0 0 40px #EF993D;
+
 
 }
 
@@ -188,7 +196,7 @@
     position: absolute; 
     width: 100%;
     height: 100%;
-    background-color: rgba(255,255,255,0.4);
+    background-color: rgba(255,255,255,0.25);
 }
 
  .parallax-text{
@@ -205,37 +213,77 @@
     font-weight: bold;
     z-index: 99999; 
 }
-.about-img1{
-    height: 400px;
-    width: 400px;
-    margin-top: 100px;
-    box-shadow: -8px 13px 29px 2px #EF993D, 16px -23px 10px 1px #F4E4CD;
-    transition: all 0.3 ease-in-out;
+.row1{
+    display: flex;
+    gap: 10px;
+    padding-left: 40px;
+}
+.row1 .img1{
+    height: 280px;
+    width: 280px;
+}
+.row1 .img2{
+    height:220px ;
+    width: 220px;
+    margin-top: 60px; /* 280px - 220px*/
+}
+.row2{
+    display: flex;
+    gap: 10px;
     
 }
-.about-img1:hover{
-    transform: translate(15px,12px);
+.row2 .img3{
+    height:220px ;
+    width: 220px;
+}
+.row2 .img4{
+    height: 280px;
+    width: 280px; 
+}
+.images-container{
+   display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.about-us .about-paragraphe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     gap: 20px; 
+    
     
 }
-.about-us h4{
-    width: 400px;
-    text-align: justify;
-    margin-top: 10px;
-    font-family:'Nunito', sans-serif ;
+.about-us .about-paragraphe p{
+    font-size: 25px;
+    /* width: 400px;  */
+    text-align: center;
+    max-width: 70%;
+    margin: auto;
+    font-family:'roboto', sans-serif ;
+    line-height: 30px;
 }
-.about-us span{
+.about-us .about-paragraphe p::first-letter{
+    color:#EF993D;
+    text-shadow: 0 0 20px #EF993D , 0 0 40px #fdfdfd ;
+    font-size: 35px;
+    font-family:  'Dancing Script', cursive;
+}
+.about-us .about-paragraphe h3{
     font-family:  'Dancing Script', cursive;
     color:#EF993D;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 45px;
     text-shadow: 0 0 20px #EF993D , 0 0 40px #EF993D;
+    
 }
 
 .about-us{
-    padding: 40px;
+    padding: 90px;
     display: flex;
     justify-content: space-around;
-    background-color: rgba(239, 153, 61, 0.1);
+     /* background-color: rgba(239, 153, 61, 0.1);  */
+    background-color: black;
+    color: white;
 }
 .why-us span {
     font-family:  'Dancing Script', cursive;
@@ -263,7 +311,7 @@
 .why-us .box {
     margin: 20px;
     padding: 50px 30px;
-    box-shadow: 3px 5px 15px 2px #99BEA9;
+    box-shadow: 3px 5px 15px 2px #99BEA9 ,3px 5px 15px 2px #EF993D inset;
     transition: all ease-in-out 0.3s;
     height: 100%;
   }
@@ -302,3 +350,78 @@
   .why-us .box:hover p {
     color: #fff;
   }
+
+  /* contact page*/
+
+  .page-head .page-img{
+    background-image: url(picture/17.jpg);background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+    url(picture/17.jpg);
+    height: 60%;
+    width: 100%; 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 0;
+    
+    
+  }
+ .item-page{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    left:30%;
+    top: 25%;
+    
+} 
+.item-page h1 {
+     font-family:  'Dancing Script', cursive; 
+    color:#ffffff;
+    /* font-family:'roboto', sans-serif ; */
+    font-size: 70px;
+    text-shadow: 0 0 20px #EF993D , 0 0 40px #EF993D;
+    
+}
+.time{
+    display: flex;
+    z-index: 9999;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+.time h5{
+    font-size: 30px;
+    color:white;
+    font-family:'roboto', sans-serif  ;
+}
+
+.opening-time{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    border:2px solid #706f6f;
+    justify-content: space-around;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),
+    url(picture/18.JPG);
+    height: 200px;
+    width: 600px;
+    margin-left: 30rem; 
+
+}
+.opening{
+    display: flex;
+    justify-content: center;
+    z-index: 9999; 
+    /* color: white;
+    font-family: 'Dancing Script', cursive ; */
+
+
+}
+
+.opening h1{
+    color: white;
+    font-family:'Dancing Script', cursive ;
+    text-shadow: 0 0 20px #EF993D , 0 0 40px #EF993D;
+    font-size: 50px;
+}
