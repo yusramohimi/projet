@@ -18,7 +18,7 @@
         </div>
         <nav class="menu-bar">
             <ul>
-                <li><a href="homepage.html"><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a href="index.html"><i class="fa-solid fa-house"></i>Home</a></li>
                 <li><a href="#"><i class="fa-solid fa-caret-down"></i>Menu</a>
                     <div class="sub-menu">
                         <ul>
@@ -33,11 +33,12 @@
                 <li><a href="events.html"><i class="fa-solid fa-champagne-glasses"></i>Events</a></li>
                 <li><a href="gallery.html"><i class="fa-solid fa-images"></i>Gallery</a></li>
                 <li><a href="contact.html"><i class="fa-sharp fa-solid fa-address-book"></i>Contact</a></li>
+                <li><a href="feedback.html"><i class="fa-solid fa-comments"></i>Feedback</a></li>
                 <li><a href="book-table.html"><button class="book-button">Book a table</button></a></li>
             </ul>
         </nav>
     </header>
-    <section parallax-conctat-img></section>
+    
     <div class="page-head">
         <section class="page-img"></section>
             <div class="item-page">
@@ -54,8 +55,93 @@
             <h5>08:00 AM - 11:00 PM</h5>
         </div>
     </section>
-    <section>
-        <div></div>
+    <section class="social-media">
+        <div class="ligne">
+            <div class="info-item">
+                <i class="fa-solid fa-location-dot" style="color: #EF993D ;"></i>
+                <div >
+                    <h4>Location</h4>
+                    <h6>91 Bd la corniche,Casablanca,Maroc</h6>
+                </div>
+            </div>
+            <div class="info-item">
+                <i class="fa-solid fa-envelope" style="color: #EF993D ;"></i>
+                <div>
+                    <h4>Email</h4>
+                    <h6>worldflavorshub@gmail.com</h6>
+                </div>
+            </div>
+        </div>
+        <div class="ligne">
+            <div class="info-item">
+                <i class="fa-solid fa-phone" style="color: #EF993D ;"></i>
+                <div>
+                    <h4>Phone number</h4>
+                    <h6>+212 601-234567</h6>
+                </div>
+            </div>
+            <div class="info-item">
+                <i class="fa-brands fa-instagram" style="color: #EF993D ;"></i>
+                <div>
+                    <h4>Instagram</h4>
+                    <h6>worldflavors_hub</h6>
+                </div>
+            </div>
+        </div>
+        <div class="ligne">
+            <div class="info-item">
+                <i class="fa-brands fa-facebook" style="color: #EF993D;"></i>
+                <div>
+                    <h4>Facebook</h4>
+                    <h6>Worldflavors hub</h6>
+                </div>
+            </div>
+            <div class="info-item">
+                <i class="fa-brands fa-twitter" style="color: #EF993D;" ></i>
+                <div>
+                    <h4>Twiteer</h4>
+                    <h6>Worldflavors hub</h6>
+                </div>
+            </div>
+        </div>
     </section>
+    <div class="formulaire-titre">
+        <h1>Contact Form</h1>
+        <h4>For more information about our restaurant,<br> don't hesitate to contact us.</h4>
+    </div>
+    <form action="contact" class="formulaire">
+        
+        <div class="ligne-info">
+            <div class="information">
+                <label for="contact">Your name <span>*</span></label>
+                <input type="text" name="name" id="name" placeholder="Name" required>
+            </div>
+            <div class="information">
+                <label for="contact">Your email <span>*</span></label>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+            </div>
+        </div>
+        <div class="ligne-info">
+            <div class="information">
+                <label for="contact">Subject </label>
+                <input type="text" name="subject" id="subject" placeholder="Subject">
+            </div>
+            <div class="information">
+                <label for="contact">Your phone number </label>
+                <input type="tel" name="phone" id="phone" placeholder="Phone number">
+            </div>
+        </div>
+        <div class="ligne-info">
+            <div class="information">
+                <label for="contact"> Message <span>*</span></label>
+                <textarea placeholder="Message" required></textarea>
+            </div>
+        </div>
+        <div class="ligne-info">
+            
+            <button class="button">Send message</button>
+        </div>
+        <p><span>*</span> Champ obligatoire </p>
+    </form>
 </body>
 </html>
