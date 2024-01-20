@@ -26,22 +26,12 @@
     font-family:  'Dancing Script', cursive;
     color:#EF993D;
 }
-.logo .hat{
-    width: 45px;
-    height: 40px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    padding-bottom:3px ;
-    padding-left: 0;
-    padding-right: 0d;
-
-}
 .logo h1{
     margin-bottom: 0;
 }
 .menu-bar{
     text-align: center;
-    font-family:'Nunito', sans-serif ;
+    font-family:'roboto', sans-serif ;
 }
 .menu-bar ul{ 
     display: inline-flex;
@@ -56,12 +46,14 @@
 }
 .menu-bar ul li a{
     text-decoration: none;
+    font-size: 13px;
     color: white;
     transition: all 0.3s ease-in-out;
 }
 .menu-bar ul li a:hover{
     text-decoration: none;
     color: #99BEA9;
+    
 }
 .menu-bar i {
     margin-right: 5px;
@@ -391,9 +383,10 @@
 
 }
 .time h5{
-    font-size: 30px;
+    font-size: 25px;
     color:white;
     font-family:'roboto', sans-serif  ;
+    opacity: 0.8;
 }
 
 .opening-time{
@@ -402,8 +395,9 @@
     flex-direction: column;
     border:2px solid #706f6f;
     justify-content: space-around;
-    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),
-    url(picture/18.JPG);
+     background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),
+    url(picture/18.JPG); 
+    box-shadow:3px 5px 15px 2px #706f6f ;
     height: 200px;
     width: 600px;
     margin-left: 30rem; 
@@ -424,4 +418,143 @@
     font-family:'Dancing Script', cursive ;
     text-shadow: 0 0 20px #EF993D , 0 0 40px #EF993D;
     font-size: 50px;
+}
+
+
+.social-media .info-item{
+    background-color:#F4F4F4 ;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    width: 40rem;
+    
+}
+ .social-media .info-item i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    font-size: 25px;
+    background-color: black;
+    border-radius: 100%;
+    margin-right: 10px;
+} 
+.social-media .info-item h4 {
+    font-size: 20px;
+    color: #EF993D;
+    font-weight: 700;
+    margin: 0 0 5px 0;
+    font-family:'roboto', sans-serif ;
+  }
+  
+  .social-media .info-item h6 {
+    padding: 0;
+    margin: 0;
+    line-height: 24px;
+    color:black;
+    font-family:'roboto', sans-serif ;
+  }
+  
+.social-media .ligne{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.social-media{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin-top: 5%;
+}
+
+.formulaire-titre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.formulaire-titre h4{
+    text-align: center;
+    color: #000000;
+    opacity: 0.8;
+    font-family: 'Nunito',sans-serif;
+}
+
+.formulaire-titre h1{
+    color: #EF993D;
+    font-family:'poppins',sans-serif;
+    text-shadow:0 0 20px #EF993D , 0 0 40px #EF993D ;
+}
+
+.information{
+    display:flex ;
+    flex-direction: column;
+    gap: 7px;
+}
+.ligne-info{
+    display: flex;
+    justify-content: center;
+    
+    gap: 20px;
+}
+.ligne-info .information label{
+    color: black;
+    font-family:'roboto',sans-serif; 
+    font-size: 18px;
+}
+
+.ligne-info .information label span{
+    color: #EF993D;
+}
+
+.ligne-info .information input{
+    width: 40rem;
+    height: 50px;
+     box-shadow:3px 5px  2px #99BEA9 ;
+     padding: 10px;
+}
+
+.ligne-info .information textarea{
+     width: calc(20px + 40rem + 40rem );/*gap+ input width x2 */
+     box-shadow:3px 5px  2px #99BEA9 ;
+     height: 200px;
+     padding: 10px;
+}
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+.ligne-info .button{
+    border:3px solid #EF993D ;
+    box-shadow:3px 5px  2px #99BEA9 ;
+    border-radius: 20px;
+    height: 40px;
+    width: 160px;
+    background-color: transparent;
+    color: black;
+    margin-left: 15px;
+    font-family:'roboto',sans-serif;
+    transition: all 0.4s ease-in-out;
+    
+    
+}
+.ligne-info .button:hover{
+    background-color: #EF993D ; 
+    color: white;
+    box-shadow: 3px 5px 15px 2px #EF993D ,3px 5px 15px 2px #EF993D;
+    font-size: larger;
+}
+.formulaire p{
+    margin-left: 140px;
+    color: #706f6f;
+    font-family:'roboto',sans-serif;
+    
+    
+}
+.formulaire p span{
+    color: #EF993D;
 }
