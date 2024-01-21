@@ -345,7 +345,7 @@
 
   /* contact page*/
 
-  .page-head .page-img{
+  .contact-head .contact-img{
     background-image: url(picture/17.jpg);background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
     url(picture/17.jpg);
     height: 60%;
@@ -357,20 +357,18 @@
     
     
   }
- .item-page{
-    display: flex;
-    justify-content: center;
+ .item-contact{
     gap: 20px;
     position: absolute;
-    left:30%;
+    left:30%; 
     top: 25%;
-    
 } 
-.item-page h1 {
+.item-contact h1 {
      font-family:  'Dancing Script', cursive; 
     color:#ffffff;
     /* font-family:'roboto', sans-serif ; */
     font-size: 70px;
+    
     text-shadow: 0 0 20px #EF993D , 0 0 40px #EF993D;
     
 }
@@ -558,3 +556,32 @@
 .formulaire p span{
     color: #EF993D;
 }
+
+/* feedback page */
+ .feedback-head .feedback-img{
+    background-image: url(picture/17.jpg);background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+    url(picture/17.jpg);
+    height: 60%;
+    width: 100%; 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 0;
+    
+    
+  }
+ .item-feedback{
+    gap: 20px;
+    position: absolute;
+    left:35%; 
+    top: 25%;
+    
+} 
+.item-feedback h1 {
+     font-family:  'Dancing Script', cursive; 
+    color:#ffffff;
+    /* font-family:'roboto', sans-serif ; */
+    font-size: 70px;
+    text-shadow: 0 0 20px #EF993D , 0 0 40px #EF993D;
+    
+} 
