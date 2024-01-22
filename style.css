@@ -522,7 +522,7 @@
 }
 .ligne-info .information label {
     color: black;
-    font-family:'roboto',sans-serif; 
+    font-family:'Nunito',sans-serif; 
     font-size: 18px;
     
 }
@@ -600,26 +600,26 @@
     padding: 20px;
 }
 
-.feedback-intro{
+.page-intro{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 5%;
 }
 
-.feedback-intro h4{
+.page-intro h5{
     text-align: center;
     color: #000000;
     opacity: 0.8;
     font-family: 'Nunito',sans-serif;
 }
 
-.feedback-intro h2{
+.page-intro h2{
     color: #EF993D;
     font-family:'poppins',sans-serif;
     text-shadow:0 0 20px #EF993D , 0 0 40px #EF993D ;
 }
-.feedback-intro h5::first-letter{
+.page-intro h5::first-letter{
     color: #EF993D;
     font-weight: bold; 
 }
@@ -650,7 +650,7 @@
 }
 .ligne-info .etoile label{
     color: black;
-    font-family:'roboto',sans-serif ;
+    font-family:'Nunito',sans-serif ;
     font-size: 18px;
     width: 150px;
 }
@@ -726,4 +726,66 @@
     color: #EF993D;
     font-family:'Dancing Script', cursive;
     text-shadow:0 0 20px #EF993D , 0 0 40px #EF993D ;
+}
+
+/*events page*/
+
+.type-info-titre{
+    color: #99BEA9;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+.form-grp{
+    display: flex;
+    align-items: center;
+     justify-content: center; 
+}
+.form-grp input , .form-grp select{
+    width: 20rem;
+    height: 50px;
+     box-shadow:3px 5px  2px #99BEA9 ;
+     padding: 10px;
+     border-radius: 5px;
+    
+}
+
+.form-grp label{
+    color: black;
+    font-family:'Nunito',sans-serif ;
+    font-size: 18px;
+    width: 300px;
+    
+}
+
+.form-grp textarea{
+    width: 20rem;
+    height: 200px;
+    box-shadow: 3px 5px  2px #99BEA9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form-grp button{
+    border:3px solid #EF993D ;
+    box-shadow:3px 5px  2px #99BEA9 ;
+    border-radius: 20px;
+    height: 40px;
+    width: 120px;
+    background-color: transparent;
+    color: black;
+    font-family:'roboto',sans-serif;
+    transition: all 0.4s ease-in-out;
+    margin-top: 30px;
+    
+}
+.form-grp button:hover{
+    background-color: #EF993D ; 
+    color: white;
+    box-shadow: 3px 5px 15px 2px #EF993D ,3px 5px 15px 2px #EF993D;
+    font-size: larger;
+}
+.form-grp i{
+    color: #EF993D  ;
+    font-weight: bold;
+   
 }
