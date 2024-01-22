@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,10 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Nunito&family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
-    <title>WorldFlavors-Contact </title>
+    <title>WorldFlavors-Feedback </title>
 </head>
 <body>
-     <header class="home-header">
+    <header class="home-header">
         <div class="logo">
             <h1>WorldFlavors Hub</h1>
         </div>
@@ -38,7 +37,95 @@
                 <li><a href="book-table.html"><button class="book-button">Book a table</button></a></li>
             </ul>
         </nav>
-    </header> 
-    
+    </header>
+    <div class="page-head">
+        <h1>Events</h1>
+    </div>
+    <div class="page-intro">
+        <h2> Book your special event at WorldFlavors Hub!</h2>
+        <h5>Fill out the form below to secure your spot in our unique spaces.</h5>
+        <h5>Let our dedicated team customize every detail, providing an exceptional culinary experience and a welcoming atmosphere.</h5>
+        <h5>We look forward to making your event extraordinary!"</h5>
+    </div>
+    <div class="container">
+        <form action="" class="formulaire" >
+            <div>
+                <h3 class="type-info-titre">YOUR CONTACT INFORMATION</h3>
+            </div>
+            <div class="form-grp">
+                <label for="name">First name <span class="required">*</span></label>
+                <input type="text" id="first-name" name="first-name" placeholder="First name" required>
+            </div>
+            <div class="form-grp">
+                <label for="name">Last name <span class="required">*</span></label>
+                <input type="text" id="last-name" name="last-name" placeholder="Last name" required> 
+            </div>
+           <div class="form-grp">
+                <label for="email">Email Address <span class="required">*</span></label>
+                <input type="email" id="email" name="email" placeholder="Abc.123@example.com" required>
+           </div>
+           <div class="form-grp">
+                <label for="" >Phone Number</label>
+                <input type="tel" name="phone" id="phone" placeholder="Phone number" required>
+           </div>
+           <div class="form-grp">
+                <label for="">Company</label>
+                <input type="text" name="company" id="company" placeholder="Company">
+           </div>
+           <h3 class="type-info-titre">YOUR EVENT DETAILS</h3>
+           <div class="form-grp">
+                <label for="event-type">Nature of this Event (ex: Birthday Party or Business Dinner...)<span class="required">*</span></label>
+                <input type="text" name="type" id="type" placeholder="Nature of this Event" required>
+            
+           </div>
+           <div class="form-grp">
+                <label for="date">Event date <span class="required">*</span></label>
+                <div class="input-group w-25">
+                    <div class="input-group-text" id="btnGroupAddon2"><i class="fa-regular fa-calendar-days"></i></div>
+                    <input type="date" class="form-control"  aria-label="Input group example" aria-describedby="btnGroupAddon2" required>
+                </div>
+           </div>
+           <div class="form-grp">
+                <label for="start-time">Start Time <span class="required">*</span></label>
+                <div class="input-group w-25">
+                    <div class="input-group-text" id="btnGroupAddon2"><i class="fa-regular fa-clock"></i></div>
+                    <input type="time" class="form-control"  aria-label="Input group example" aria-describedby="btnGroupAddon2" required>
+                </div>
+           </div>
+           <div class="form-grp">
+                <label for="end-time">End Time <span class="required">*</span></label>
+                <div class="input-group w-25">
+                    <div class="input-group-text" id="btnGroupAddon2"><i class="fa-regular fa-clock"></i></div>
+                    <input type="time" class="form-control"  aria-label="Input group example" aria-describedby="btnGroupAddon2" required>
+                </div>
+            </div>
+            <div class="form-grp">
+                <label for="nbr-people">Number of People <span class="required">*</span></label>
+                <input type="text" id="nbr-people" name="nbr-people" placeholder="Number of people" required>
+            </div>
+            <div class="form-grp">
+                <label for="informations">Is there any additional information you would like to add ?</label>
+                <textarea name="informations" id="informations" placeholder="Additional information"></textarea>
+            </div>
+            <div class="form-grp">
+                <label for="">How did you hear about us?</label>
+                <select name="" id="">
+                    <option value="select an option" disabled>Select an option</option>
+                    <option value="instagram">Instagram</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="twitter">Twitter</option>
+                    <option value="recommendation">Recommendation</option>
+                    <option value="online search">Online Search</option>
+                    <option value="online Ads">Online Ads</option>
+                    <option value="food influencers">Food Influencers</option>
+                    <option value="local events">Local Events</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-grp">
+                <button>Submit</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
