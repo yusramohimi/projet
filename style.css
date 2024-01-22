@@ -345,6 +345,29 @@
 
   /* contact page*/
 
+  .page-head{
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    background-image: url(picture/17.jpg);background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+    url(picture/17.jpg);
+    height: 60%;
+    width: 100%; 
+    background-size: cover;
+    background-position: center;
+    max-height: 200ox;
+
+    
+} 
+.page-head h1 {
+     font-family:  'Dancing Script', cursive; 
+    color:#ffffff;
+    /* font-family:'roboto', sans-serif ; */
+    font-size: 70px;
+    text-shadow: 0 0 20px #EF993D , 0 0 40px #EF993D;
+    
+} 
   .contact-head .contact-img{
     background-image: url(picture/17.jpg);background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
     url(picture/17.jpg);
@@ -486,21 +509,22 @@
     text-shadow:0 0 20px #EF993D , 0 0 40px #EF993D ;
 }
 
-.information{
+.information {
     display:flex ;
     flex-direction: column;
-    gap: 7px;
+    gap: 10px;
+    width: 100%;
 }
 .ligne-info{
     display: flex;
-    justify-content: center;
-    
+    /* justify-content: center; */
     gap: 20px;
 }
-.ligne-info .information label{
+.ligne-info .information label {
     color: black;
     font-family:'roboto',sans-serif; 
     font-size: 18px;
+    
 }
 
 .ligne-info .information label span{
@@ -515,7 +539,6 @@
 }
 
 .ligne-info .information textarea{
-     width: calc(20px + 40rem + 40rem );/*gap+ input width x2 */
      box-shadow:3px 5px  2px #99BEA9 ;
      height: 200px;
      padding: 10px;
@@ -524,7 +547,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 .ligne-info .button{
     border:3px solid #EF993D ;
@@ -534,10 +557,10 @@
     width: 160px;
     background-color: transparent;
     color: black;
-    margin-left: 15px;
+    /* margin-left: 15px; */
     font-family:'roboto',sans-serif;
     transition: all 0.4s ease-in-out;
-    
+
     
 }
 .ligne-info .button:hover{
@@ -546,42 +569,161 @@
     box-shadow: 3px 5px 15px 2px #EF993D ,3px 5px 15px 2px #EF993D;
     font-size: larger;
 }
+#btn{
+   display: flex;
+   justify-content: center;
+}
+#starbtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
 .formulaire p{
-    margin-left: 140px;
     color: #706f6f;
     font-family:'roboto',sans-serif;
     
     
-}
-.formulaire p span{
+} 
+.required{
     color: #EF993D;
 }
 
 /* feedback page */
- .feedback-head .feedback-img{
-    background-image: url(picture/17.jpg);background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
-    url(picture/17.jpg);
-    height: 60%;
-    width: 100%; 
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    z-index: 0;
-    
-    
-  }
- .item-feedback{
-    gap: 20px;
-    position: absolute;
-    left:35%; 
-    top: 25%;
-    
+
+
+
+.container{
+    width: 1170px;
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+}
+
+.feedback-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.feedback-intro h4{
+    text-align: center;
+    color: #000000;
+    opacity: 0.8;
+    font-family: 'Nunito',sans-serif;
+}
+
+.feedback-intro h2{
+    color: #EF993D;
+    font-family:'poppins',sans-serif;
+    text-shadow:0 0 20px #EF993D , 0 0 40px #EF993D ;
+}
+.feedback-intro h5::first-letter{
+    color: #EF993D;
+    font-weight: bold; 
+}
+
+.etoile{
+   
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.rating{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.rating span{
+    cursor: pointer;
+    transition: color .2s , transform .2s ;
+    font-size: 40px;
+    color: #706f6f;
+}
+.rating span:hover{
+    color: #EF993D;
+    transform: scale(1.2);
+}
+
+.rating span:hover ~ span{
+    color: #EF993D;
+}
+.ligne-info .etoile label{
+    color: black;
+    font-family:'roboto',sans-serif ;
+    font-size: 18px;
+    width: 150px;
+}
+
+
+.profile-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow:hidden ;
+    margin-right: 10px;
+}
+.profile-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.name-user{
+    display: flex;
+    flex-direction: column;
+}
+.name-user h5{
+    font-weight: bold;
+    color: #EF993D;
+    font-size: 1.1rem;
+}
+.name-user span{
+    color:#706f6f;
+    font-size: 0.8rem;
+}
+.review{
+    color: #EF993D;
+}
+.box-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+ .box-container{
+    display: flex;
+     justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    width: 100%;
 } 
-.item-feedback h1 {
-     font-family:  'Dancing Script', cursive; 
-    color:#ffffff;
-    /* font-family:'roboto', sans-serif ; */
-    font-size: 70px;
-    text-shadow: 0 0 20px #EF993D , 0 0 40px #EF993D;
-    
-} 
+.box{
+    width: 600px;
+    box-shadow:3px 5px 15px 2px #99BEA9 ;
+    background-color: white;
+    padding: 20px;
+     margin: 15px;
+    cursor: pointer;
+}
+.box:hover{
+    transform: translateY(-15PX);
+}
+
+.comment p{
+    font-size: 0.9rem;
+}
+.feedback-title{
+    text-align: center;
+    margin-top: 40px;
+}
+.feedback-title h3{
+    color: #EF993D;
+    font-family:'Dancing Script', cursive;
+    text-shadow:0 0 20px #EF993D , 0 0 40px #EF993D ;
+}
