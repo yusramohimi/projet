@@ -38,5 +38,91 @@
             </ul>
         </nav>
     </header>
+    <div class="page-head">
+        <h1>Reserve your table </h1>
+    </div>
+    <div class="container">
+        <form action="">
+            <div class="select-table">
+                <label for="table">Select Table</label>
+                <div class="img-tables-container">
+                    <img src="picture/2pers.png" alt="table de 2 personnes"/>
+                    <img src="picture/4pers.png" alt="table de 4 personnes"/>
+                    <img src="picture/6pers.png" alt="table de 6 personnes"/>
+                    <img src="picture/8pers.png" alt="table de 8 personnes"/>
+                </div>
+            </div>
+            <div class="booking-form">
+                <label for="name">Name<span class="required">*</span></label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required> 
+            </div>
+            <div class="booking-form">
+                <label for="phone">Phone number<span class="required">*</span></label>
+                <input type="tel" name="phone" id="phone" placeholder="Phone number" required>
+            </div>
+            <div class="booking-form">
+                <label for="date">Event date <span class="required">*</span></label>
+                <div class="input-group w-50">
+                    
+                    <div class="input-group-text" id="btnGroupAddon2"><i class="fa-regular fa-calendar-days"></i></div>
+                    <input type="date" class="form-control"  aria-label="Input group example" aria-describedby="btnGroupAddon2" required>
+                </div>
+            </div>
+            <div class="booking-form">
+                <label for="end-time">Time <span class="required">*</span></label>
+                <div class="input-group w-50">
+                    <div class="input-group-text" id="btnGroupAddon2"><i class="fa-regular fa-clock"></i></div>
+                    <input type="time" class="form-control"  aria-label="Input group example" aria-describedby="btnGroupAddon2" required>
+                </div>
+            </div>
+            <div class="booking-form">
+                <label for="message">Other message</label>
+                <textarea name="message" id="message" placeholder="Other message"></textarea>
+            </div>
+            <div class="form-grp">
+                <button>Book</button>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+             <div class="wave" id="wave2"></div>
+             <div class="wave" id="wave3"></div> 
+             <div class="wave" id="wave4"></div> 
+        </div>
+        <div class="footer-row">
+            <div class="footer-col">
+                    <ul class="footer-logo-opening">
+                        <li><h1>WorldFlavors Hub</h1></li>
+                        <li class="opening"> Opening hours : <br>Monday-Sunday 08:00 AM - 11:00 PM </li>
+                    </ul>
+            
+            </div>
+            <div class="footer-col">
+                <ul class="footer-link">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="book-table.html">Book Table</a></li>
+                    <li><a href="events.html">Event Request</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <ul class="footer-info">
+                    <li><i class="fa-solid fa-location-dot"></i>91 Bd la corniche,Casablanca,Maroc</li>
+                    <li><i class="fa-solid fa-phone"></i>+212 601-234567</li>
+                    <li><i class="fa-solid fa-envelope"></i>worldflavorshub@gmail.com</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <ul class="footer-social-media">
+                    <li><a href="#"><i class="fa-brands fa-instagram" id="ig"></i></a></li> 
+                    <li><a href="#"><i class="fa-brands fa-facebook" id="fb"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-x-twitter" id="Xtw"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="name"><i class="fa-regular fa-copyright"></i> made with 🤍 by <span>Yousra Mohimi</span>  </p>
+    </footer>
 </body>
 </html>
