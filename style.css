@@ -1218,3 +1218,105 @@ footer .name i{
     font-weight: bold;
    
 }
+
+/*asian menu*/
+.asian-menu-head{
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+    url(picture/48.jpg);
+    height: 60%;
+    width: 100%; 
+    background-size: cover;
+    background-position: center;
+    max-height: 200ox;
+}
+  
+
+.asian-menu-head h1 {
+    color:#ffffff;
+    font-size: 70px;
+    text-shadow: 0 0 20px #EF993D , 0 0 40px #EF993D;
+    
+} 
+
+.asian-titre{
+     font-family: 'Dancing Script', cursive; 
+     font-family: 'poppins'; 
+    color: #16583C;
+    text-shadow: 0 0 20px #99BEA9 , 0 0 40px #99BEA9;
+    margin: 30px;
+    font-style: 90px;
+    text-align: center;
+
+    
+}
+
+.asian-titre span{
+    color: #EF993D;
+}
+.food-categorie{
+    color: #EF993D;
+    text-shadow: 0 0 20px #EF993D , 0 0 40px #EF993D;
+    font-family: 'poppins';
+    font-family: 'Dancing Script', cursive; 
+    margin: 30px;
+     /* text-decoration: underline;  */
+}
+.asian-row{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.asian-col{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.card-body{
+    font-family: 'roboto';
+}
+ .card-body .card-title{
+    color: #EF993D;
+     font-weight: 600; 
+} 
+.card-body .card-title span{
+    font-size: 16px;
+    color: #16583C;
+}
+.card .card-img-top{
+    height: 250px;
+}
+
+
+.price-rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price-rating i {
+    color: #EF993D;
+}
+.price-rating h5{
+    color: #16583C;
+    font-weight: bold;
+}
+
+.order-button{
+    height: 40px;
+    width: 100%;
+    border-radius: 20px;
+    background-color:#EF993D;
+    border:2px solid #EF993D ;
+    color: white;
+    font-weight: bold;
+}
+
+.order-button:hover{
+    background-color:transparent ;
+    color: #EF993D;
+}
