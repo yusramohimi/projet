@@ -1320,3 +1320,23 @@ footer .name i{
     background-color:transparent ;
     color: #EF993D;
 }
+/* american menu page */
+.american-menu-head{
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+    url(picture/usa\ background.jpg);
+    height: 60%;
+    width: 100%; 
+    background-size: cover;
+    background-position: center;
+    max-height: 200ox;
+}
+.american-menu-head h1 {
+    color:#ffffff;
+    font-size: 70px;
+    text-shadow: 0 0 20px #EF993D , 0 0 40px #EF993D;
+    font-family: 'Dancing Script', cursive;
+} 
