@@ -53,7 +53,7 @@
 .menu-bar ul li a:hover{
     text-decoration: none;
     color: #99BEA9;
-    
+    font-weight: bold;
 }
 .menu-bar i {
     margin-right: 5px;
@@ -249,6 +249,7 @@
     font-size: 25px;
     /* width: 400px;  */
     text-align: center;
+     font-style: italic; 
     max-width: 70%;
     margin: auto;
     font-family:'roboto', sans-serif ;
@@ -580,11 +581,9 @@
     margin-top: 20px;
     
 }
-.formulaire p{
+.champ-oblg{
     color: #706f6f;
-    font-family:'roboto',sans-serif;
-    
-    
+    font-family:'roboto',sans-serif;   
 } 
 .required{
     color: #EF993D;
@@ -655,7 +654,6 @@
     font-size: 18px;
     width: 150px;
 }
-
 
 .profile-img{
     height: 50px;
@@ -948,29 +946,31 @@
     background-position: center;
 }
 .rd-img-container .gallery .img-box:nth-child(3){
-    background: url(picture/39.jpg);
+    background: url(picture/121.jpg);
     background-size: cover;
     background-position: center;
 }
 .rd-img-container .gallery .img-box:nth-child(4){
-    background: url(picture/43.jpg);
+    background: url(picture/120.jpg);
     background-size: cover;
     background-position: center;
 }
 .rd-img-container .gallery  .img-box:nth-child(5){
-    background: url(picture/44.jpg);
+    background: url(picture/122.jpg);
     background-size: cover;
     background-position: center;
 }
-.rd-img-container .gallery .img-box h5 a{
+.rd-img-container .gallery .img-box h4 a{
     color: #EF993D;
+    text-shadow: 0 0 20px #EF993D;
     font-family: 'roboto';
+    font-weight: bold;
     position: absolute;
     bottom: 0px;
     left: 40px;
     opacity: 0;
 }
-.rd-img-container .gallery .img-box:hover h5 a{
+.rd-img-container .gallery .img-box:hover h4 a{
     opacity: 1;
     bottom: 25px;
     
@@ -1118,25 +1118,33 @@ footer .name i{
     z-index: 1000;
     opacity: 1;
     bottom: 0;
-    animation: anim 4s linear infinite ;
+    animation: anim 14s linear infinite ;
+    animation-direction: alternate;
+    
 }
 #wave2{
     z-index:999;
     opacity: 0.5;
     bottom: 10px;
-    animation: anim2 4s linear infinite ;
+    animation: anim 13s linear infinite ;
+    animation-direction: alternate;
+    
 }
 #wave3{
     z-index: 1000;
     opacity: 0.2;
     bottom: 15px;
-    animation: anim 3s linear infinite ;
+    animation: anim2 14s linear infinite ;
+    animation-direction: alternate;
+    
 }
 #wave4{
     z-index:999;
     opacity: 0.7;
     bottom: 20px;
-    animation: anim2 3s linear infinite ;
+    animation: anim2 13s linear infinite ;
+    animation-direction: alternate;
+    
 }
 
 @keyframes anim {
@@ -1335,6 +1343,26 @@ footer .name i{
     max-height: 200ox;
 }
 .american-menu-head h1 {
+    color:#ffffff;
+    font-size: 70px;
+    text-shadow: 0 0 20px #EF993D , 0 0 40px #EF993D;
+    font-family: 'Dancing Script', cursive;
+} 
+/* italian menu */
+.italian-menu-head{
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+    url(picture/italian\ background.jpg);
+    height: 60%;
+    width: 100%; 
+    background-size: cover;
+    background-position: center;
+    max-height: 200ox;
+}
+.italian-menu-head h1 {
     color:#ffffff;
     font-size: 70px;
     text-shadow: 0 0 20px #EF993D , 0 0 40px #EF993D;
