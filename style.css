@@ -1273,11 +1273,12 @@ footer .name i{
     margin: 30px;
      /* text-decoration: underline;  */
 }
-.asian-row{
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-}
+ .asian-row{
+      display: flex;  
+     justify-content: center;
+    gap: 50px; 
+
+} 
 
 .asian-col{
     display: flex;
@@ -1292,9 +1293,9 @@ footer .name i{
     color: #EF993D;
      font-weight: 600; 
 } 
- .card-body .card-text{
+ /* .card-body .card-text{
     min-height: 100px;
- }
+ } */
 .card-body .card-title span{
     font-size: 16px;
     color: #16583C;
@@ -1371,3 +1372,6 @@ footer .name i{
     text-shadow: 0 0 20px #EF993D , 0 0 40px #EF993D;
     font-family: 'Dancing Script', cursive;
 } 
+.card-body .card-text{
+    min-height: 90px;
+}
