@@ -198,6 +198,21 @@
     background-color: rgba(255,255,255,0.25);
 }
 
+.description-parallax{
+    padding-top: 60px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-family: 'dancing script';
+    color: #000000;
+}
+.description-parallax span{
+    color: #16583C;
+    font-weight: bold;
+    text-shadow:  0 0 20px #EF993D;
+}
+
  .parallax-text{
     display: flex;
     min-height: 500px;
@@ -272,7 +287,8 @@
     font-family:  'Dancing Script', cursive;
     color:#EF993D;
     font-weight: bold;
-    font-size: 45px;
+    font-size: 3vw;
+    white-space: nowrap;
     text-shadow: 0 0 20px #EF993D , 0 0 40px #EF993D;
     
 }
@@ -326,8 +342,8 @@
   .why-us .box h4 {
     color: #ffb03b;
     font-family:'Dancing Script', cursive ;
-    white-space: nowrap;
-    font-size: 30px;
+    min-height: 30px;
+    font-size: 25px;
     padding: 0;
     margin: 20px 0;
     
@@ -1041,13 +1057,13 @@ footer .name i{
     color: #EF993D;
 }
 .footer-col:nth-child(1){
-    width: 30%;
+    width: 25%;
 }
 .footer-col:nth-child(3){
     width: 35%;
 }
 .footer-col:nth-child(2){
-    width: 15%;
+    width: 20%;
 }
 .footer-col:nth-child(4){
     width: 20%;
@@ -1221,15 +1237,24 @@ footer .name i{
     justify-content: space-around;
    
 }
-.img-tables-container img{
+/* .img-tables-container img{
     height: 90px;
     width: 100px;
     opacity:0.25;
+} */
+svg{
+    height: 14vh;
+    width: 14vw;
+    opacity: 0.25;
 }
- .img-tables-container img:hover{
+svg:hover{
     cursor: pointer;
     opacity:1; 
- }
+}
+ /* .img-tables-container img:hover{
+    cursor: pointer;
+    opacity:1; 
+ } */
         
      
 .booking-form{
@@ -1331,14 +1356,17 @@ footer .name i{
 
 .card-body{
     font-family: 'roboto';
+    
+   
 }
  .card-body .card-title{
     color: #EF993D;
-     font-weight: 600; 
+     font-weight: 600;
+     min-height: 50px; 
 } 
- /* .card-body .card-text{
+   .card-body .card-text{
     min-height: 100px;
- } */
+ }  
 .card-body .card-title span{
     font-size: 16px;
     color: #16583C;
