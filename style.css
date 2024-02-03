@@ -28,6 +28,8 @@
 }
 .logo h1{
     margin-bottom: 0;
+    font-size: 2vw;
+    white-space: nowrap;
 }
 .menu-bar{
     text-align: center;
@@ -40,9 +42,11 @@
     margin-bottom: 0;
 }
 .menu-bar ul li{
-    width: 100px;
-    margin: 10px;
+    margin-right: 15px;
     padding: 10px;
+}
+.menu-bar ul li:last-child{
+    margin-right: 0;
 }
 .menu-bar ul li a{
     text-decoration: none;
@@ -53,7 +57,7 @@
 .menu-bar ul li a:hover{
     text-decoration: none;
     color: #99BEA9;
-    font-weight: bold;
+    
 }
 .menu-bar i {
     margin-right: 5px;
@@ -74,7 +78,7 @@
 }
 
 .menu-bar ul li:hover .sub-menu ul li{
-    width: 70px;
+    width: 50px;
     padding: 10px;
     transition: all 0.3 ease-in-out; 
 }
@@ -129,8 +133,9 @@
     margin-left: 23px;
 }
 .book-button{
-    height: 40px;
-    width: 120px;
+     height: 40px;
+    width: 120px; 
+    /* padding: 5px 30px; */
     border-radius: 20px;
     background-color:#EF993D;
     border:2px solid #EF993D ;
@@ -147,8 +152,9 @@
 .first-button{
     border:2px solid #EF993D ;
     border-radius: 20px;
-    height: 40px;
-    width: 120px;
+    /* height: 40px;
+    width: 120px; */
+    padding: 5px 30px;
     background-color: transparent;
     color: #F4E4CD;
     font-weight: bold;  
@@ -159,8 +165,9 @@
 .second-button{
     border:2px solid #EF993D ;
     border-radius: 20px;
-    height: 40px;
-    width: 130px;
+    /* height: 40px;
+    width: 130px; */
+    padding: 5px 30px;
     background-color: transparent;
     color: #F4E4CD;
     margin-left: 15px;
@@ -202,7 +209,7 @@
     color: black;
     font-family: 'Dancing Script', cursive;
     font-weight: bold;
-    z-index: 99999; 
+    z-index: 1; 
     text-align: center;
 }
 .row1{
@@ -306,7 +313,8 @@
     padding: 50px 30px;
     box-shadow: 3px 5px 15px 2px #99BEA9 ,3px 5px 15px 2px #EF993D inset;
     transition: all ease-in-out 0.3s;
-    height: 100%;
+    /* height: 100%; */
+    
   }
   
   .why-us .box .nbr {
@@ -318,6 +326,7 @@
   .why-us .box h4 {
     color: #ffb03b;
     font-family:'Dancing Script', cursive ;
+    white-space: nowrap;
     font-size: 30px;
     padding: 0;
     margin: 20px 0;
@@ -330,6 +339,8 @@
     font-size: 15px;
     margin: 0;
     padding: 0;
+    min-height: 130px;
+    min-width: 150px;
   }
   
   .why-us .box:hover {
@@ -351,13 +362,13 @@
     display: flex;
     justify-content: center;
      align-items: center;
-    background-image: url(picture/17.jpg);background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
     url(picture/17.jpg);
     height: 60%;
     width: 100%; 
     background-size: cover;
     background-position: center;
-    max-height: 200ox;
+     /* max-height: 500px; */
 
     
 } 
@@ -369,18 +380,16 @@
     text-shadow: 0 0 20px #EF993D , 0 0 40px #EF993D;
     
 } 
-  .contact-head .contact-img{
-    background-image: url(picture/17.jpg);background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
-    url(picture/17.jpg);
+   /* .contact-head .contact-img{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+    url(picture/17.jpg); 
     height: 60%;
     width: 100%; 
     background-size: cover;
     background-position: center;
     position: relative;
-    z-index: 0;
-    
-    
-  }
+    z-index: 0;   
+  } */
  .item-contact{
     gap: 20px;
     position: absolute;
@@ -412,7 +421,7 @@
 }
 
 .opening-time{
-    margin-top: 5%;
+    
     display: flex;
     flex-direction: column;
     border:2px solid #706f6f;
@@ -420,9 +429,11 @@
      background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),
     url(picture/18.JPG); 
     box-shadow:3px 5px 15px 2px #706f6f ;
-    height: 200px;
+    /* height: 200px; */
+    padding: 35px 0;
     width: 600px;
-    margin-left: 30rem; 
+    max-width: 100%; 
+    margin: 5% auto 0;
 
 }
 .opening{
@@ -488,14 +499,14 @@
     display: flex;
     flex-direction: column;
     row-gap: 20px;
-    margin-top: 5%;
+    margin: 5% auto 0; ;
 }
 
 .formulaire-titre{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5%;
+    margin: 5% auto 0;
 }
 
 .formulaire-titre h4{
@@ -534,7 +545,6 @@
 }
 
 .ligne-info .information input{
-    width: 40rem;
     height: 50px;
      box-shadow:3px 5px  2px #99BEA9 ;
      padding: 10px;
@@ -551,12 +561,13 @@
     gap: 20px;
     /* margin-top: 20px; */
 }
-.ligne-info .button{
+ .button{
     border:3px solid #EF993D ;
     box-shadow:3px 5px  2px #99BEA9 ;
     border-radius: 20px;
-    height: 40px;
-    width: 160px;
+    /* height: 40px;
+    width: 160px; */
+    padding: 5px 30px;
     background-color: transparent;
     color: black;
     /* margin-left: 15px; */
@@ -565,7 +576,7 @@
 
     
 }
-.ligne-info .button:hover{
+ .button:hover{
     background-color: #EF993D ; 
     color: white;
     box-shadow: 3px 5px 15px 2px #EF993D ,3px 5px 15px 2px #EF993D;
@@ -604,7 +615,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5%;
+    margin: 5% auto 0;
 }
 
 .page-intro h5{
@@ -716,6 +727,7 @@
 
 .comment p{
     font-size: 0.9rem;
+    min-height: 60px;
 }
 .feedback-title{
     text-align: center;
@@ -740,14 +752,16 @@
     justify-content: center; 
 }
 .form-grp input , .form-grp select{
-    width: 20rem;
+    width: 25vw;
     height: 50px;
      box-shadow:3px 5px  2px #99BEA9 ;
      padding: 10px;
      border-radius: 5px;
     
 }
-
+.form-grp .input-group{
+    width: 25vw;
+}
 .form-grp label{
     color: black;
     font-family:'Nunito',sans-serif ;
@@ -757,7 +771,7 @@
 }
 
 .form-grp textarea{
-    width: 20rem;
+    width: 25vw;
     height: 200px;
     box-shadow: 3px 5px  2px #99BEA9;
     padding: 10px;
@@ -768,8 +782,9 @@
     border:3px solid #EF993D ;
     box-shadow:3px 5px  2px #99BEA9 ;
     border-radius: 20px;
-    height: 40px;
-    width: 120px;
+    /* height: 40px;
+    width: 120px; */
+    padding: 5px 30px;
     background-color: transparent;
     color: black;
     font-family:'roboto',sans-serif;
@@ -799,7 +814,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    margin-top: 5%;
+    margin: 5% auto 0;
 }
 .parallax-gallery::after{
     z-index: 0;
@@ -824,7 +839,7 @@
     font-size: 80px;
     font-family: 'poppins';
      font-weight: bold; 
-    z-index: 99999;
+    z-index: 1;
     background: linear-gradient(50deg,#ef993d,#99bea9); 
     text-transform: uppercase;
     -webkit-background-clip: text;
@@ -960,22 +975,27 @@
     background-size: cover;
     background-position: center;
 }
-.rd-img-container .gallery .img-box h4 a{
+ .rd-img-container .gallery .img-box h4 a{
     color: #EF993D;
     text-shadow: 0 0 20px #EF993D;
     font-family: 'roboto';
     font-weight: bold;
     position: absolute;
+    text-decoration: none;
     bottom: 0px;
     left: 40px;
     opacity: 0;
 }
 .rd-img-container .gallery .img-box:hover h4 a{
     opacity: 1;
-    bottom: 25px;
+    bottom: 25px; 
+} 
+.rd-img-container .gallery .img-box h4 a:hover{
+    font-size: larger;
+    text-decoration: underline;
     
-}
-
+    
+} 
 /* footer */
 
 
@@ -988,10 +1008,14 @@ footer{
     padding: 3% 5%;
      /* text-align: center;  */
     color: white;
-    margin-top: 50px;
+    margin:5% auto 0;
 }
 footer ul{
     list-style: none;
+}
+footer ul li{
+    display: flex;
+    align-items: center;
 }
 footer a{
     color: white;
@@ -1016,17 +1040,33 @@ footer .name i{
     font-size: 15px;
     color: #EF993D;
 }
-.footer-col{
-    width: 25%;
+.footer-col:nth-child(1){
+    width: 30%;
+}
+.footer-col:nth-child(3){
+    width: 35%;
+}
+.footer-col:nth-child(2){
+    width: 15%;
+}
+.footer-col:nth-child(4){
+    width: 20%;
+}
+.footer-logo-opening{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
 }
 .footer-logo-opening h1{
     font-family:  'Dancing Script', cursive;
     color: #EF993D;
     text-align: center;
+   white-space: nowrap;
+   font-size: 2.5vw;
 }
 .footer-logo-opening .opening{
     text-align: center;
-    margin-top: 22px;
 }
 
 .footer-col .footer-link a{
@@ -1052,8 +1092,8 @@ footer .name i{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     font-size: 25px;
    background: transparent;
    border: none;
@@ -1207,7 +1247,7 @@ footer .name i{
     
 }
 .booking-form input{
-    width: 40rem;
+    width: 25vw;
     height: 50px;
      box-shadow:3px 5px  2px #99BEA9 ;
      padding: 10px;
@@ -1215,7 +1255,7 @@ footer .name i{
    
 }
 .booking-form textarea{
-    width: 40rem;
+    width: 25vw;
     height: 200px;
     box-shadow: 3px 5px  2px #99BEA9;
     padding: 10px;
@@ -1225,6 +1265,9 @@ footer .name i{
     color: #EF993D  ;
     font-weight: bold;
    
+}
+.booking-form .input-group{
+    width: 25vw;
 }
 
 /*asian menu*/
@@ -1373,5 +1416,8 @@ footer .name i{
     font-family: 'Dancing Script', cursive;
 } 
 .card-body .card-text{
-    min-height: 90px;
+    min-height: 130px;
+    line-height: 25px;
+    color: #000000;
+    font-family: 'Nunito',sans-serif;
 }
