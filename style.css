@@ -1233,6 +1233,7 @@ footer .name i{
     font-weight: 600;
 }
 .img-tables-container{
+    margin-top: 20px;
     display: flex;
     justify-content: space-around;
    
@@ -1244,18 +1245,22 @@ footer .name i{
 } */
 svg{
     height: 14vh;
-    width: 14vw;
+     /* width: 14vw;  */
     opacity: 0.25;
 }
 svg:hover{
     cursor: pointer;
     opacity:1; 
 }
+svg:hover .cls-1{
+    stroke: #EF993D;
+    stroke-width: 8px;
+}
  /* .img-tables-container img:hover{
     cursor: pointer;
     opacity:1; 
  } */
-        
+
      
 .booking-form{
     display: flex;
@@ -1448,4 +1453,148 @@ svg:hover{
     line-height: 25px;
     color: #000000;
     font-family: 'Nunito',sans-serif;
+}
+
+input:focus{
+    outline: hidden;
+    outline-color: #EF993D;
+} 
+
+/* healthy menu page */
+
+.healthy-menu-head{
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+         align-items: center;
+        background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+        url(picture/shutterstock_1259570605.jpg);
+        height: 60%;
+        width: 100%; 
+        background-size: cover;
+        background-position: center;
+        max-height: 200ox;
+    }
+.healthy-menu-head h1 {
+        color:#ffffff;
+        font-size: 70px;
+        text-shadow: 0 0 20px #EF993D , 0 0 40px #EF993D;
+        font-family: 'Dancing Script', cursive;
+} 
+
+
+.steps h3{
+    font-family: 'Nunito';
+    font-weight: bold;
+    color: #16583C;
+}
+.steps h3 span{
+    color:#99BEA9;
+    font-family: "dancing script";
+    
+}
+
+
+
+
+section{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    transform: translate(-50%,-50%);
+     left: 50%;
+     top: 120%;
+    /* top: 50%;  */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* gap: 20px; */
+}
+
+.tile{
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+.checkbox-ingredient{
+    -webkit-appearance: none;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 3px solid transparent;
+    outline: none;
+    box-shadow: 15px 15px 25px rgba(2,28,53,0.05);
+}
+
+.checkbox-ingredient:after{
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    content: "\f111";
+    font-size: 22px;
+    top: 10px;
+    left: 10px;
+    color: #e2e6f3;
+}
+
+.checkbox-ingredient:hover{
+    transform: scale(1.08);
+}
+.checkbox-ingredient:checked{
+    border: 3px solid #EF993D;
+}
+.checkbox-ingredient:checked:after{
+    font-weight: 900;
+    content: "\f058";
+    color: #EF993D;
+}
+.tile label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+}
+.tile label .ingredient-img{
+    width: 75%;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.checkbox-ingredient:checked + label .ingredient-img{
+    animation: grow 0.5s;
+}
+
+.tile label .ingredient-name i ,.tile  label .price i{
+    color: #16583C;
+}
+.ingredient-info{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 90%;
+    left: 0;
+    right: 0;
+    align-items: center;
+    text-align: center;
+}
+.ingredient-info .ingredient-name {
+    font-family: 'poppins';
+    color: black;
 }
