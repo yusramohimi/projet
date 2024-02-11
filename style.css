@@ -10,7 +10,7 @@
     height: 100%; 
     align-items: center;
     display: flex;
-     
+
 }
 .home-header{
     z-index: 99;
@@ -1237,11 +1237,7 @@ footer .name i{
     justify-content: space-around;
    
 }
-/* .img-tables-container img{
-    height: 90px;
-    width: 100px;
-    opacity:0.25;
-} */
+
 svg{
     height: 14vh;
     width: 14vw;
@@ -1251,12 +1247,11 @@ svg:hover{
     cursor: pointer;
     opacity:1; 
 }
- /* .img-tables-container img:hover{
-    cursor: pointer;
-    opacity:1; 
- } */
-        
-     
+   
+svg:hover .cls-1{
+    stroke: #EF993D;
+    stroke-width: 8px;
+}
 .booking-form{
     display: flex;
     align-items: center;
@@ -1448,4 +1443,136 @@ svg:hover{
     line-height: 25px;
     color: #000000;
     font-family: 'Nunito',sans-serif;
+}
+
+/* healthy menu page */
+
+.healthy-menu-head{
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+    url(picture/background-healthy.jpg);
+    height: 60%;
+    width: 100%; 
+    background-size: cover;
+    background-position: center;
+}
+.healthy-menu-head h1 {
+    color:#ffffff;
+    font-size: 70px;
+    text-shadow: 0 0 20px #EF993D , 0 0 40px #EF993D;
+    font-family: 'Dancing Script', cursive;
+} 
+
+
+.steps h3{
+font-family: 'Nunito';
+font-weight: bold;
+color: #16583C;
+}
+.steps h3 span{
+color:#99BEA9;
+font-family: "dancing script";
+
+}
+
+
+
+.col-checkbox{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.checkbox-section{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+flex-wrap: wrap;
+gap: 40px;
+}
+
+.tile{
+height: 200px;
+width: 200px;
+position: relative;
+}
+.checkbox-ingredient{
+-webkit-appearance: none;
+position: relative;
+height: 100%;
+width: 100%;
+background-color: whitesmoke;
+border-radius: 10px;
+cursor: pointer;
+border: 3px solid transparent;
+outline: none;
+box-shadow: 15px 15px 25px rgba(2,28,53,0.05);
+}
+
+.checkbox-ingredient:after{
+position: absolute;
+font-family: "Font Awesome 5 Free";
+font-weight: 400;
+content: "\f111";
+font-size: 22px;
+top: 10px;
+left: 10px;
+color: lightgrey;
+/* color: #e2e6f3; */
+}
+
+.checkbox-ingredient:hover{
+transform: scale(1.1);
+}
+.checkbox-ingredient:checked{
+border: 3px solid #EF993D;
+}
+.checkbox-ingredient:checked:after{
+font-weight: 900;
+content: "\f058";
+color: #EF993D;
+}
+.tile label{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 20px;
+height: 80%;
+width: 100%;
+position: absolute;
+left: 0;
+top: 0;
+bottom: 0;
+right: 0;
+cursor: pointer;
+}
+.tile label .ingredient-img{
+width: 75%;
+position: absolute;
+margin: auto;
+left: 0;
+right: 0;
+bottom: 0;
+cursor: pointer;
+}
+
+.tile label .ingredient-name i ,.tile  label .price i{
+color: #16583C;
+}
+.ingredient-info{
+display: flex;
+flex-direction: column;
+position: absolute;
+top: 95%;
+left: 0;
+right: 0;
+align-items: center;
+text-align: center;
+}
+.ingredient-info .ingredient-name {
+font-family: 'poppins';
+color: black;
 }
