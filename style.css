@@ -1596,3 +1596,17 @@ color: black;
     justify-content: center;
     margin-top: 20PX;
 }
+
+.quantite-total{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+.quantite-total h6 {
+    color: #16583C;
+    font-weight: bold;
+    font-family: 'nunito';
+    text-shadow: 0 0 20px #16583C;
+}
