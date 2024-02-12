@@ -380,7 +380,7 @@
      align-items: center;
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
     url(picture/17.jpg);
-    height: 60%;
+    padding: 160px 0 120px;
     width: 100%; 
     background-size: cover;
     background-position: center;
@@ -396,16 +396,7 @@
     text-shadow: 0 0 20px #EF993D , 0 0 40px #EF993D;
     
 } 
-   /* .contact-head .contact-img{
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
-    url(picture/17.jpg); 
-    height: 60%;
-    width: 100%; 
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    z-index: 0;   
-  } */
+
  .item-contact{
     gap: 20px;
     position: absolute;
@@ -1298,7 +1289,7 @@ svg:hover .cls-1{
      align-items: center;
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
     url(picture/48.jpg);
-    height: 60%;
+    padding: 160px 0 120px;
     width: 100%; 
     background-size: cover;
     background-position: center;
@@ -1406,7 +1397,7 @@ svg:hover .cls-1{
      align-items: center;
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
     url(picture/usa\ background.jpg);
-    height: 60%;
+    padding: 160px 0 120px;
     width: 100%; 
     background-size: cover;
     background-position: center;
@@ -1426,7 +1417,7 @@ svg:hover .cls-1{
      align-items: center;
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
     url(picture/italian\ background.jpg);
-    height: 60%;
+    padding: 160px 0 120px;
     width: 100%; 
     background-size: cover;
     background-position: center;
@@ -1454,7 +1445,7 @@ svg:hover .cls-1{
      align-items: center;
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
     url(picture/background-healthy.jpg);
-    height: 60%;
+    padding: 160px 0 120px;
     width: 100%; 
     background-size: cover;
     background-position: center;
@@ -1575,4 +1566,33 @@ text-align: center;
 .ingredient-info .ingredient-name {
 font-family: 'poppins';
 color: black;
+}
+
+.prix-total{
+    text-align: center;
+    font-family: 'roboto';
+}
+.prix-total h4{
+    color: #EF993D;
+    text-shadow: 0 0 20px #EF993D;
+}
+.order-button-checkbox{
+    height: 40px;
+    width: 10vw;
+    border-radius: 20px;
+    background-color:#EF993D;
+    border:2px solid #EF993D ;
+    color: white;
+    font-weight: bold;
+
+}
+
+.order-button-checkbox:hover{
+    background-color:transparent ;
+    color: #EF993D;
+}
+.checkbox-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20PX;
 }
