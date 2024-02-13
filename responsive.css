@@ -1,3 +1,4 @@
+/*footer*/
 @media  screen and (max-width:600px) {
     .footer-row{
         width: 100%;
@@ -5,6 +6,8 @@
         flex-direction: column;
         justify-content: center;
     }
+       
+    
     .footer-col:nth-child(1){
         width: 100%;
         display: flex;
@@ -36,7 +39,7 @@
 
     }
 }
-
+/*healthy menu page */
 @media  screen and (max-width:600px){
     .quantite-total{
         display: flex;
@@ -61,4 +64,99 @@
         font-size: 15px;
         text-align: center;
     }
+
 }
+@media  screen and (max-width:600px){
+
+    .why-us .box{
+        width: 100%;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .images-container{
+        display: none;
+    }
+    .home-title{
+    display: block;
+    text-align: center;
+    }
+    .welcome{
+    font-size:32px;
+    }
+    .worldflavors-hub{
+    font-size: 46px;
+    }
+
+    .name-welcome h4{
+    max-width: 90%;
+    font-size: 18px;
+    margin: 15px auto 30px;
+    }
+
+    .buttons {
+    text-align: center;
+    display: block;
+    margin-bottom: 30px;
+    }
+
+    .quote-description .quote {
+    margin-left:0;
+    }
+    .quote-description .quote .what{
+        margin-left: 12px;
+    }
+    .description-parallax{
+        text-align: center;
+    }
+    .parallax-text
+    {
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+    }
+    
+    .parallax-text .item{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        position: relative;
+        z-index: 1;
+        
+    }
+
+    .about-us
+    {
+    display:block;
+    padding: 20px 10px;
+    margin: 0;
+    }
+
+    .about-us .about-paragraphe p
+    {
+    font-size: 17px;
+    line-height: 23px;
+    max-width: 100%;
+    padding: 15px;
+    }
+
+    .about-us .about-paragraphe h3
+    {
+    font-size: 28px;
+    margin-top: 30px;
+    }
+
+    .flex-container
+    {
+    display: block;
+    }
+
+    .why-us
+    {
+    margin:30px;
+    }
+    .why-us span{
+        white-space: nowrap;
+    }
+        
+    
+    }
