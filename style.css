@@ -1577,8 +1577,9 @@ color: black;
     text-shadow: 0 0 20px #EF993D;
 }
 .order-button-checkbox{
-    height: 40px;
-    width: 10vw;
+    /* height: 40px;
+    width: 10vw; */
+    padding:10px 25px;
     border-radius: 20px;
     background-color:#EF993D;
     border:2px solid #EF993D ;
