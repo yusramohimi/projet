@@ -1,4 +1,10 @@
-/*footer*/
+    .healthy-menu-head h1{
+        font-size: 45px;
+        text-align: center;
+    }
+    .healthy-menu-head{
+        padding: 80px 0 60px;
+    }/*footer*/
 @media  screen and (max-width:600px) {
     .footer-row{
         width: 100%;
@@ -123,7 +129,15 @@
         z-index: 1;
         
     }
-
+    .parallax-image {
+        background-image: url(picture/background.jpeg);
+        min-height: 500px;
+        background-attachment:local; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative
+    }
     .about-us
     {
     display:block;
@@ -159,4 +173,67 @@
     }
         
     
+    }
+
+    /*american menu page */
+    @media  screen and (max-width:600px){
+        .american-menu-head h1{
+            font-size: 45px;
+            text-align: center;
+        }
+        .american-menu-head{
+            padding: 80px 0 60px;
+        }
+        
+        .asian-row{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .asian-titre{
+            font-size:20px ;
+        }
+    }
+
+    /*asian menu page */
+    @media  screen and (max-width:600px){
+        .asian-menu-head h1{
+            font-size: 45px;
+            text-align: center;
+        }
+        .asian-menu-head{
+            padding: 80px 0 60px;
+        }
+    }
+    
+    /*italian menu page */
+
+    @media  screen and (max-width:600px){
+        .italian-menu-head h1{
+            font-size: 45px;
+            text-align: center;
+        }
+        .italian-menu-head{
+            padding: 80px 0 60px;
+        }
+    }
+
+
+    /*contact page*/
+    @media  screen and (max-width:600px){
+        .page-head{
+            padding: 80px 0 60px;
+        }
+        .page-head h1{
+            font-size: 45px;
+            text-align: center;
+        }
+        .social-media .ligne{
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+        }
+
+       
     }

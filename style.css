@@ -466,7 +466,8 @@
     padding: 30px;
     display: flex;
     align-items: center;
-    width: 40rem;
+    /* width: 40rem; */
+    width: 40vw;
     
 }
  .social-media .info-item i{
@@ -1310,7 +1311,6 @@ svg:hover .cls-1{
     color: #16583C;
     text-shadow: 0 0 20px #99BEA9 , 0 0 40px #99BEA9;
     margin: 30px;
-    font-style: 90px;
     text-align: center;
 
     
