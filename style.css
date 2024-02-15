@@ -80,12 +80,20 @@
 .menu-bar ul li:hover .sub-menu ul{
     display: block;
     margin: 10px;
+    padding-left: 0;
+    text-align: center;
 }
 
 .menu-bar ul li:hover .sub-menu ul li{
-    width: 50px;
     padding: 10px;
     /* transition: all 0.3 ease-in-out;  */
+}
+.sub-menu{
+    padding-right: 0;
+    min-width: 160px;
+}
+.sub-menu ul li span{
+    margin-left: 10px;
 }
 .menu-bar ul li:hover .sub-menu ul li a{
     text-decoration: none;
@@ -93,18 +101,18 @@
     color: white;
     transition: all 0.4s ease-in-out;
 
-   
 }
+
 .menu-bar ul li:hover .sub-menu ul li a:hover{
     color: #000000;
     padding-left: 7px;
 }
 
- .menu-bar ul li:hover .sub-menu ul li svg:hover .st0{
+ .menu-bar ul li:hover .sub-menu ul li a:hover svg .st0{
     fill: #000000;
     stroke: #000000;
 } 
-.menu-bar ul li:hover .sub-menu ul li svg:hover{
+.menu-bar ul li:hover .sub-menu ul li a:hover svg{
     fill: #000000;
     stroke: #000000;
 }
