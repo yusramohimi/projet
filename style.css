@@ -55,8 +55,8 @@
     transition: all 0.3s ease-in-out;
 }
 .menu-bar ul li a:hover{
-    text-decoration: none;
-    color: #99BEA9;
+    color: #EF993D;
+    /* color: #99BEA9; */
     
 }
 .menu-bar i {
@@ -66,6 +66,11 @@
 .sub-menu{
     display: none;
     padding-right: 50px;
+}
+
+.sub-menu ul li svg{
+    height: 20px;
+    width: 20px;
 }
 .menu-bar ul li:hover .sub-menu{
     display: block;
@@ -80,8 +85,23 @@
 .menu-bar ul li:hover .sub-menu ul li{
     width: 50px;
     padding: 10px;
-    transition: all 0.3 ease-in-out; 
+    /* transition: all 0.3 ease-in-out;  */
 }
+.menu-bar ul li:hover .sub-menu ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    transition: all 0.4s ease-in-out;
+   
+}
+.menu-bar ul li:hover .sub-menu ul li a:hover{
+    color: #000000;
+    padding-left: 7px;
+}
+/* .menu-bar ul li:hover .sub-menu ul li svg:hover {
+    color: #000000;
+    padding-left: 7px;
+} */
  .home-title{
     display: flex;
     justify-content: space-around;
@@ -226,6 +246,10 @@
     font-weight: bold;
     z-index: 1; 
     text-align: center;
+    background: rgb(255, 255, 255, 0.5);
+    min-width: 250px;
+    border-radius: 5px;
+    padding: 15px;
 }
 .row1{
     display: flex;
@@ -414,7 +438,7 @@
 }
 .time{
     display: flex;
-    z-index: 9999;
+    z-index: 9;
     align-items: center;
     justify-content: space-around;
 
@@ -446,7 +470,7 @@
 .opening{
     display: flex;
     justify-content: center;
-    z-index: 9999; 
+    z-index: 9; 
     /* color: white;
     font-family: 'Dancing Script', cursive ; */
 
@@ -1230,17 +1254,20 @@ footer .name i{
    
 }
 
-svg{
+.img-tables-container svg{
     height: 14vh;
     width: 14vw;
-    opacity: 0.25;
+    opacity: 0.5;
 }
-svg:hover{
+.img-tables-container svg:hover{
     cursor: pointer;
     opacity:1; 
 }
-   
-svg:hover .cls-1{
+.img-tables-container svg .cls-1{
+    stroke: #000000;
+}
+
+.img-tables-container svg:hover .cls-1{
     stroke: #EF993D;
     stroke-width: 8px;
 }

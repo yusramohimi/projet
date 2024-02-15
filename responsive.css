@@ -234,6 +234,136 @@
             flex-direction:column;
             align-items: center;
         }
+        .social-media .info-item{
+            width: 90%;
+        
+        }
+        .social-media .info-item i{
+            width: 45px;
+            height: 45px;
+            font-size: 20PX;
+        }
+        .ligne-info{
+            display: flex;
+            flex-direction: column;
+        }
+        .opening-time{
+            width: 90%;
+        }
+        .opening h1{
+            font-size: 40PX;
+        }
+        .time h5{
+            font-size: 20PX;
+        }
+        .ligne-info .information input{
+            width: 90%;
+            margin: 0 10PX;
+        }
+        .ligne-info .information textarea{
+            width: 90%;
+            margin: 0 10PX;
+        }
+        #btn{
+            display: flex;
+            align-items: center;
+        }
+        
+    }
+    /*events page*/
+    @media  screen and (max-width:600px){
+        .form-grp input , .form-grp select{
+            width: 90%;
+        }
+        .form-grp{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10Px;
+        }
+        
+        .form-grp .input-group{
+            width: 90%;
+        }
+        .form-grp textarea{
+            width: 90%;
+        }
+        .page-intro h5{
+            font-size: 15PX;
+            width: 90%;
+        }
+        
+    }
 
-       
+    /*FEEDBACK PAGE */
+
+    @media  screen and (max-width:600px){
+        #starbtn{
+            display: flex;
+            align-items: center;
+            margin-bottom: 10PX;
+        }
+    }
+    
+    /*book table */
+    @media  screen and (max-width:600px){
+        .booking-form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10Px;
+        }
+        .booking-form input{
+            width: 90%;
+        }
+        .booking-form textarea{
+            width: 90%;
+        }
+        .booking-form .input-group{
+            width: 90%;
+        }
+        svg{
+            height: 10vh;
+            width: 10vh;
+        }
+        .img-tables-container{
+            display: flex;
+            justify-content: center;
+            gap: 30PX;
+        }
+        .booking-form label{
+            margin-left:30px ;
+        }
+    }
+
+    /*gallery page */
+    @media  screen and (max-width:600px){
+
+        .gallery{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+        }
+        .gallery .img-box{
+            width:350px;
+            height: 60px;
+        }
+        .gallery .img-box:hover{
+            height: 300px;
+            width: 95%;
+        }
+        .parallax-gallery{
+            height: 150px;
+
+        }
+        .parallax-gallery::after{
+            background-color: rgba(0,0,0,0.4);
+        }
+        .text{
+            font-size: 40px;
+            text-align: center;
+        }
     }
