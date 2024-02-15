@@ -44,6 +44,19 @@
       
 
     }
+    .footer-logo-opening{
+        padding-left:0 ;
+    }
+    .footer-social-media{
+        padding-left: 0;
+    }
+    .footer-col .footer-link{
+        margin: 20Px 0;
+       
+       -webkit-columns: 2;
+        columns: 2;
+        -moz-columns: 2;
+    }
 }
 /*healthy menu page */
 @media  screen and (max-width:600px){

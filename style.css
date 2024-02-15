@@ -92,16 +92,22 @@
     font-size: 13px;
     color: white;
     transition: all 0.4s ease-in-out;
+
    
 }
 .menu-bar ul li:hover .sub-menu ul li a:hover{
     color: #000000;
     padding-left: 7px;
 }
-/* .menu-bar ul li:hover .sub-menu ul li svg:hover {
-    color: #000000;
-    padding-left: 7px;
-} */
+
+ .menu-bar ul li:hover .sub-menu ul li svg:hover .st0{
+    fill: #000000;
+    stroke: #000000;
+} 
+.menu-bar ul li:hover .sub-menu ul li svg:hover{
+    fill: #000000;
+    stroke: #000000;
+}
  .home-title{
     display: flex;
     justify-content: space-around;
