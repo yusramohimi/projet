@@ -65,12 +65,20 @@
 
 .sub-menu{
     display: none;
-    padding-right: 50px;
+    padding-right: 0;
+    min-width: 160px;
 }
 
 .sub-menu ul li svg{
-    height: 20px;
-    width: 20px;
+    height: 18px;
+    width: 18px;
+}
+.sub-menu ul{
+    padding-left: 0;
+}
+.sub-menu ul li{
+    text-align: center;
+    transition: all 0.3 ease-in-out;
 }
 .menu-bar ul li:hover .sub-menu{
     display: block;
@@ -79,20 +87,10 @@
 }
 .menu-bar ul li:hover .sub-menu ul{
     display: block;
-    margin: 10px;
-    padding-left: 0;
-    text-align: center;
+    /* margin: 10px; */
 }
 
-.menu-bar ul li:hover .sub-menu ul li{
-    padding: 10px;
-    /* transition: all 0.3 ease-in-out;  */
-}
-.sub-menu{
-    padding-right: 0;
-    min-width: 160px;
-}
-.sub-menu ul li span{
+.sub-menu ul li a span{
     margin-left: 10px;
 }
 .menu-bar ul li:hover .sub-menu ul li a{
