@@ -59,6 +59,7 @@
     /* color: #99BEA9; */
     
 }
+
 .menu-bar i {
     margin-right: 5px;
 }
@@ -77,7 +78,8 @@
     padding-left: 0;
 }
 .sub-menu ul li{
-    text-align: center;
+    margin-left: 10px;
+    text-align: left;
     transition: all 0.3 ease-in-out;
 }
 .menu-bar ul li:hover .sub-menu{
