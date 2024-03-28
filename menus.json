@@ -1,0 +1,798 @@
+{
+    "menus":[
+        {
+            "id":"asian",
+            "name":"Asian menu",
+            "categories":[
+                {
+                    "id":"appetizers",
+                    "name":"Appetizers",
+                    "subcategories":[
+                        {
+                            "id":"tartare",
+                            "name":"TARTARES",
+                            "products":[
+                                {
+                                    "id":"tuna and avocado tartare",
+                                    "image": "picture/tartare thon.jpeg",
+                                    "name": "Tuna and Avocado tartare",
+                                    "description": "Fresh Tuna - Creamy Avocado - Light Soy Sauce - Toasted Sesame Oil",
+                                    "price": "59 DH",
+                                    "rating": "4.8"
+                                },
+                                { 
+                                    "id":"salmon and avocado tartare",
+                                    "image": "picture/tartare_saumon.jpg",
+                                    "name": "Salmon and Avocado tartare",
+                                    "description": "Fresh Salmon - Creamy Avocado - Soy Sauce - Toasted Sesame Oil",
+                                    "price": "65 DH",
+                                    "rating": "4.9"
+                                },
+
+                                {  
+                                    "id":"white fish tartare",
+                                    "image": "picture/tartare-poisson-blanc.jpg",
+                                    "name": "White Fish tartare",
+                                    "description": "Fresh White Fish - Long Onion - Light Soy Sauce - Toasted Sesame Oil",
+                                    "price": "59 DH",
+                                    "rating": "4.8"
+                                }
+
+                            ]
+                        },
+                        {
+                            "id":"sashimi tataki",
+                            "name":"SASHIMI & TATAKI",
+                            "products":[
+                                {
+                                    "id":"salmon tataki",
+                                    "image": "picture/tataki-saumon.jpeg",
+                                    "name": "Salmon Tataki",
+                                    "pieces": "6pcs",
+                                    "description": "Salmon - Teryaki Sauce - Soy Sauce - Toasted Sesame Oil - Ginger - Sesame",
+                                    "price": "69 DH",
+                                    "rating": "4.9"
+                                },
+                                {
+                                    "id":"tuna tataki",
+                                    "image": "picture/tataki-thon.jpg",
+                                    "name": "Tuna Tataki",
+                                    "pieces": "6pcs",
+                                    "description": "Tune - Teryaki Sauce - Soy Sauce - Toasted Sesame Oil - Ginger - Sesame",
+                                    "price": "69 DH",
+                                    "rating": "4.8"
+                                },
+                                {
+                                    "id":"tuna sashimi",
+                                    "image": "picture/sashimi-thon3.jpg",
+                                    "name": "Tuna Sashimi",
+                                    "pieces": "6pcs",
+                                    "description": "Fresh Tune - Served with wasabi,pickled ginger , and soy sauce",
+                                    "price": "65 DH",
+                                    "rating": "4.7"
+                                },
+                                {   
+                                    "id":"salmon sashimi",
+                                    "image": "picture/sashimi-saumon2.jpg",
+                                    "name": "Salmon Sashimi",
+                                    "pieces": "6pcs",
+                                    "description": "Fresh Salmon - Served with wasabi,pickled ginger , and soy sauce",
+                                    "price": "65 DH",
+                                    "rating": "4.9"
+                                },
+                                {   
+                                    "id":"assortment of sashimi",
+                                    "image": "picture/assortiment-sashimi3.jpg",
+                                    "name": "Assortment of Sashimi",
+                                    "pieces": "35pcs",
+                                    "category": "SASHIMI & TATAKI",
+                                    "description": "Fresh Tune - Fresh Salmon - Fresh White Fish Served with soya sauce",
+                                    "price": "299 DH",
+                                    "rating": "4.8"
+                                },
+                                {   
+                                    "id":"salmon chirashi",
+                                    "image": "picture/chirashi-saumon.jpg",
+                                    "name": "Salmon Chirashi",
+                                    "category": "SASHIMI & TATAKI",
+                                    "description": "Fresh Salmon - Rize - Sesame - Toasted Sesame Oil - wasabi - Light soya Sauce",
+                                    "price": "75 DH",
+                                    "rating": "4.8"
+                                },
+                                {   
+                                    "id":"salmon avocado chirashi",
+                                    "image": "picture/chirashi-saumon-avocat.jpg",
+                                    "name": "Salmon Avocado Chirashi",
+                                    "description": "Fresh Salmon - Creamy Avocado - Rize - Sesame - Toasted Sesame Oil - Light soya Sauce",
+                                    "price": "79 DH",
+                                    "rating": "4.9"
+                                },
+                                {   
+                                    "id":"mixed chirashi",
+                                    "image":"picture/chirashi-mixte.jpg" ,
+                                    "name": "Mixed Chirashi",
+                                    "description": "Fresh Tune - Fresh Salmon - Creamy Avocado - Light Soy Sauce - Toasted Sesame Oil",
+                                    "price": "89 DH",
+                                    "rating": "4.9"
+                                }
+                            ]
+                        },
+                        {
+                            "id":"soup",
+                            "name":"Soup",
+                            "products":[
+                                {
+                                    "id":"miso soup",
+                                    "image": "picture/miso.jpg",
+                                    "name": "Miso Soup",
+                                    "description": "Tofu - Wakame - Long Onion - shitake",
+                                    "price": "30 DH",
+                                    "rating": "4.8"
+                                },
+                                {   
+                                    "id":"tom khai kai soup",
+                                    "image":"picture/tom khai kai.jpg",
+                                    "name": "Tom Khai Kai Soup",
+                                    "description": "Coconut milk - Shrimp - Mushrooms",
+                                    "price": " 64 DH",
+                                    "rating": "4.9"
+                                },
+                                {   
+                                    "id":"tom yum soup",
+                                    "image":"picture/tom yum.jpg",
+                                    "name": "Tom Yum Soup",
+                                    "description": "Coconut milk - Shrimp - Mushrooms",
+                                    "price": " 59 DH",
+                                    "rating": "4.8"
+                                },
+                                {   
+                                    "id":"shrimp noodles soup",
+                                    "image": "picture/sashimi-saumon2.jpg",
+                                    "name": "Shrimp Noodles Soup",
+                                    "description": "Noodles - Shrimp - Eggs - Sesame - Seaweed",
+                                    "price": " 64 DH",
+                                    "rating": "4.9"
+                                }
+                            ]
+                        }
+
+                    ]
+                },
+                {
+                    "id":"asian tapas",
+                    "name":"Asian Tapas",
+                    "subcategories":[
+                        {
+                            "id":"spring rolls",
+                            "name":"SPRING ROLLS",
+                            "products":[
+                                {
+                                    "id":"chicken s.r",
+                                    "image":"picture/Srolls poulet.jpg",
+                                    "name":"Chicken S.R",
+                                    "pieces":"8pcs",
+                                    "description":"Rice paper wrappers - Chicken - Rice Vermicelli - Vegatables",
+                                    "price":"45 DH",
+                                    "rating":"4.8"
+
+                                },
+                                {
+                                    "id":"shrimp s.r",
+                                    "image":"picture/Srolls crevettte.jpg",
+                                    "name":"Shrimp S.R",
+                                    "pieces":"8pcs",
+                                    "description":"Rice paper wrappers - Shrimp - Rice Vermicelli - Crunchy Vegatables",
+                                    "price":"50 DH",
+                                    "rating":"4.9"
+                                },
+                                {
+                                    "id":"vegan s.r",
+                                    "image":"picture/Srolls vegan.jpg",
+                                    "name":"Vegan S.R",
+                                    "pieces":"8pcs",
+                                    "description":"Rice paper wrappers - Crunchy Vegatables",
+                                    "price":"32 DH",
+                                    "rating":"4.8"
+                    
+                                },
+                                {
+                                    "id":"smoked salmon s.r",
+                                    "image":"picture/Srolls saumon fume.jpg",
+                                    "name":"Smokes Salmon S.R",
+                                    "pieces":"8pcs",
+                                    "description":"Rice paper wrappers - smoked Salmon - Rice Vermicelli ",
+                                    "price":"50 DH",
+                                    "rating":"4.9"
+                    
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id":"worldflavors hub creations",
+                    "name":"WorldFlavors Hub Creations",
+                    "subcategories":[
+                       {
+                            "id":"worldflavors hub creations",
+                            "name":"WorldFlavors Hub Creations",
+                            "products":[
+                                {
+                                    "id":"rainbow roll",
+                                    "image":"picture/rainbow roll.jpg",
+                                    "name":"Rainbow Roll",
+                                    "pieces":"8pcs",
+                                    "description":"Salmon - Surimi - Shrimp - Mango - Avocado - Cream Cheese",
+                                    "price":"69 DH",
+                                    "rating":"4.8"
+                                },
+                                {
+                                    "id":"worldflavors roll",
+                                    "image":"picture/worldflavors roll.jpg",
+                                    "name":"WorldFlavors roll",
+                                    "pieces":"8pcs",
+                                    "description":"Salmon- Cream Cheese - Orange - Chef Sauce",
+                                    "price":"69 DH",
+                                    "rating":"4.9"
+                                },
+                                {
+                                    "id":"chicken samrod",
+                                    "image":"picture/Poulet samrod.jpg",
+                                    "name":"Chicken Samrod",
+                                    "pieces":"8pcs",
+                                    "description":"Shrimp - Cream Cheese - Surimi - Chicken - Samrod Sauce",
+                                    "price":"65 DH",
+                                    "rating":"4.9"
+                                },
+                                {
+                                    "id":"sushi cheese",
+                                    "image":"picture/sushi cheese.jpg",
+                                    "name":"Sushi Cheese",
+                                    "pieces":"5pcs",
+                                    "description":"Surimi - Shrimp - Salmon - Mozzarella - Japanese spices",
+                                    "price":"75 DH",
+                                    "rating":"4.9"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id":"japanese sushi",
+                    "name":"Japanese Sushi",
+                    "subcategories":[
+                        {
+                            "id":"maki",
+                            "name":"MAKI",
+                            "products":[
+                                {
+                                    "id":"salmon maki",
+                                    "image":"picture/maki saumon.png",
+                                    "name":"Salmon Maki",
+                                    "pieces":"6pcs",
+                                    "description":"Salmon - Rice",
+                                    "price":"39 DH",
+                                    "rating":"4.8"
+                                },
+                                {
+                                    "id":"salmon cheese maki",
+                                    "image":"picture/saumon-cheese.png",
+                                    "name":"Salmon Cheese Maki",
+                                    "pieces":"6pcs",
+                                    "description":"Salmon - Cream Cheese - Rice",
+                                    "price":"45 DH",
+                                    "rating":"4.9"
+                                },
+                                {
+                                    "id":"shrimp maki",
+                                    "image":"picture/crevette-pane.png",
+                                    "name":"Shrimp Maki",
+                                    "pieces":"6pcs",
+                                    "description":"Shrimp - Rice",
+                                    "price":"35 DH",
+                                    "rating":"4.9"
+                                },
+                                {
+                                    "id":"avocado maki",
+                                    "image":"picture/maki saumon.png",
+                                    "name":"Avocado Maki",
+                                    "pieces":"6pcs",
+                                    "description":"Rice - Creamy Avocado",
+                                    "price":"25 DH",
+                                    "rating":"4.8"
+                                }
+                            ]
+                        },
+                        {
+                            "id":"californie",
+                            "name":"CALIFORNIE",
+                            "products":[
+                                {
+                                    "id":"ebi toboki",
+                                    "image":"picture/ebitobiko.png",
+                                    "name":"Ebi Tobiko",
+                                    "pieces":"4pcs",
+                                    "description":"Shrimp - Avocado - Cream Cheese - Tobiko",
+                                    "price":"39 DH",
+                                    "rating":"4.8"
+                                },
+                                {
+                                    "id":"ebi fry",
+                                    "image":"picture/EBI-FRY.png",
+                                    "name":"Ebi Tobiko",
+                                    "pieces":"4pcs",
+                                    "description":"Shrimp - Avocado - Cream Cheese - Chives ",
+                                    "price":"35 DH",
+                                    "rating":"4.9"
+                                },
+                                {
+                                    "id":"shake spicy",
+                                    "image":"picture/shake-spicy-600x600.png",
+                                    "name":"Shake Spicy",
+                                    "pieces":"4pcs",
+                                    "description":"Salmon - Avocado - Shishimi",
+                                    "price":"39 DH",
+                                    "rating":"4.9"
+                                },
+                                {
+                                    "id":"shake yaki",
+                                    "image":"picture/ebitobiko.png",
+                                    "name":"Shake Yaki",
+                                    "pieces":"4pcs",
+                                    "description":"Cooked Salmon - Avocado - Massago",
+                                    "price":"35 DH",
+                                    "rating":"4.8"
+                                },
+                                {
+                                    "id":"classic",
+                                    "image":"picture/classic-.png",
+                                    "name":"Classic",
+                                    "pieces":"4pcs",
+                                    "description":"Surimi - Cucumber - Avocado - Massago",
+                                    "price":"29 DH",
+                                    "rating":"4.8"
+                                },
+                                {
+                                    "id":"boston",
+                                    "image":"picture/boston.png",
+                                    "name":"Boston",
+                                    "pieces":"4pcs",
+                                    "description":"Shrimp - Crab - Cream Cheese - Tobiko",
+                                    "price":"39 DH",
+                                    "rating":"4.9"
+                                },
+                                {
+                                    "id":"shake",
+                                    "image":"picture/SHAKE.png",
+                                    "name":"Shake",
+                                    "pieces":"4pcs",
+                                    "description":"Salmon - Avocado - Sesame Seed",
+                                    "price":"39 DH",
+                                    "rating":"4.9"
+                                },
+                                {
+                                    "id":"creame cheese",
+                                    "image":"picture/creame-cheese.png",
+                                    "name":"Creame Cheese",
+                                    "pieces":"4pcs",
+                                    "description":">Salmon - Surimi - Avocado - Cream Cheese - Tobiko",
+                                    "price":"35 DH",
+                                    "rating":"4.8"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id":"asian desserts",
+                    "name":"Asian desserts",
+                    "subcategories":[
+                        {
+                            "id":"asian desserts",
+                            "name":"Asian desserts",
+                            "products":[
+                                {
+                                    "id":"green tea ice cream mochi",
+                                    "image": "picture/112.jpg",
+                                    "name": "Green Tea Ice Cream Mochi",
+                                    "description": "Glutinous rice balls filled with green tea ice cream. ",
+                                    "price": "45 DH",
+                                    "rating": "4.9"
+                                },
+                                {
+                                    "id":"anmitsu",
+                                    "image": "picture/113.jpg",
+                                    "name": "Anmitsu",
+                                    "description": "Agar-agar jelly with sweet red beans and fruits ",
+                                    "price": "45 DH",
+                                    "rating": "4.8"
+                                },
+                                {
+                                    "id":"dorayaki",
+                                    "image": "picture/114.jpg",
+                                    "name": "Dorayaki",
+                                    "description": "Soft pancakes filled with red bean paste ",
+                                    "price": "45 DH",
+                                    "rating": "4.9"
+                                },
+                                {
+                                    "id":"bánh flan",
+                                    "image": "picture/112.jpg",
+                                    "name": "Bánh Flan",
+                                    "description": "A Vietnamese version of crème caramel rich in coconut milk flavors ",
+                                    "price": "35 DH",
+                                    "rating": "4.9"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id":"american",
+            "name":"American Menu",
+            "categories":[
+                {
+                    "id":"burgers",
+                    "name":"Burgers",
+                    "subcategories":[
+                        {
+                            "id":"burgers",
+                            "name":"burgers",
+                            "products":[
+                                {
+                                    "id":"classic burger",
+                                    "image":"picture/50.jpg",
+                                    "name":"Classic Burger",
+                                    "pieces":"650 Kcal",
+                                    "description":"Two beef patties made-to-order - American cheese - lettuce - tomato - pickles - onions - mustard - Ketchup from Heinz",
+                                    "price":"69 DH",
+                                    "rating":"4.9"
+                                },
+                                {
+                                    "id":"double bacon burger",
+                                    "image":"picture/51.jpg",
+                                    "name":"Double Bacon Burger",
+                                    "pieces":"830 Kcal",
+                                    "description":"Two beef patties - four slices of crispy bacon - American cheese - lettuce - tomato - pickles - onions - mustard - Ketchup from Heinz",
+                                    "price":"75 DH",
+                                    "rating":"4.8"
+                                },
+                                {
+                                    "id":"cheeeesy burger",
+                                    "image":"picture/52.jpg",
+                                    "name":"Cheeeesy Burger ",
+                                    "pieces":"830 Kcal",
+                                    "description":"Four slices of melted American cheese - two beef patties made-to-order - sandwiched between an inverted, grilled, and buttered bun",
+                                    "price":"69 DH",
+                                    "rating":"4.8"
+                                },
+                                {
+                                    "id":"the big easy",
+                                    "image":"picture/53.jpg",
+                                    "name":"The Big Easy",
+                                    "pieces":"1010 Kcal",
+                                    "description":"Beef patties stacked with lettuce - tomato - bacon and pepper jack cheese—all jazzed up with a Cajun Remoulade",
+                                    "price":"74 DH",
+                                    "rating":"4.9"
+                                },
+                                {
+                                    "id":"carolina",
+                                    "image":"picture/54.jpg",
+                                    "name":"Carolina",
+                                    "pieces":"800 Kcal",
+                                    "description":"Take a trip to the land of Tar Heels and Palmettos with this southern-style burger. Served with yellow American cheese, slaw, chili, onions",
+                                    "price":"77 DH",
+                                    "rating":"4.9"
+                                },
+                                {
+                                    "id":"craft your own/single",
+                                    "image":"picture/55.jpg",
+                                    "name":"Craft Your Own/Single",
+                                    "pieces":"350 Kcal",
+                                    "description":"Craft your own single burger. Start with a made-to-order patty, then get cheesy with four options to choose from. Top it off with fresh veggies... ",
+                                    "price":"70 DH",
+                                    "rating":"4.8"
+                                },
+                                {
+                                    "id":"craft your own/double",
+                                    "image":"picture/57.jpg",
+                                    "name":"Craft Your Own/Double",
+                                    "pieces":"530 Kcal",
+                                    "description":">Craft your own double burger!Start with two beef patties, then get cheesy with four options to choose from. Top it off with fresh veggies ",
+                                    "price":"79 DH",
+                                    "rating":"4.9"
+                                },
+                                {
+                                    "id":"impossible melt",
+                                    "image":"picture/56.jpg",
+                                    "name":"Impossible Melt",
+                                    "pieces":"790 Kcal",
+                                    "description":"Burger with Swiss Cheese, Sauteed Onions, and Cajun Remoulade Sauce on an inverted buttered bun. Delicious meat, made from plants",
+                                    "price":"85 DH",
+                                    "rating":"4.9"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id":"chicken and more",
+                    "name":"Chicken & More",
+                    "subcategories":[
+                        {
+                            "id":"chicken and more",
+                            "name":"Chicken & More",
+                            "products":[
+                                {
+                                    "id":"buffalo tenders",
+                                    "image":"picture/58.jpg",
+                                    "name":"Buffalo Tenders",
+                                    "pieces":"840 Kcal",
+                                    "description":"Get your spice on! Our hand-breaded tenders topped with buffalo sauce for that extra bit of flavor,accompanied by a creamy ranch dressing",
+                                    "price":"50 DH",
+                                    "rating":"4.9"
+                                    
+                                },
+                                {
+                                    "id":"chicken tenders",
+                                    "image":"picture/59.jpg",
+                                    "name":"Chicken Tenders",
+                                    "pieces":"720 Kcal",
+                                    "description":"Hand-breaded tenders accompanied by your choice of dipping sauce,They may sound traditional, but they rival anything on the menu.",
+                                    "price":"45 DH",
+                                    "rating":"4.8"
+                                    
+                                },
+                                {
+                                    "id":"chicken blt",
+                                    "image":"picture/60.jpg",
+                                    "name":"Chicken Blt",
+                                    "pieces":"880 Kcal",
+                                    "description":"Bacon, lettuce, tomato and topping a crispy chicken breast.If the name doesn’t explain itself enough, we’ll let the flavors do the rest of the talking",
+                                    "price":"69 DH",
+                                    "rating":"4.8"
+                                    
+                                },
+                                {
+                                    "id":"buffalo chicken",
+                                    "image":"picture/61.jpg",
+                                    "name":"Buffalo Chicken",
+                                    "pieces":"700 Kcal",
+                                    "description":"Crispy hand-breaded chicken tossed in Frank’s Red Hot for delicious taste. Topped with lettuce, tomato, and creamy ranch dressing.",
+                                    "price":"74 DH",
+                                    "rating":"4.9"
+                            
+                                },
+                                {
+                                    "id":"cheesesteak",
+                                    "image":"picture/62.jpg",
+                                    "name":"Cheesesteak",
+                                    "pieces":"840 Kcal",
+                                    "description":"It’s not just for Philly anymore. Melted American cheese topping shaved steak, accompanied by juicy grilled onions",
+                                    "price":"59 DH",
+                                    "rating":"4.9"
+                                    
+                                },
+                                {
+                                    "id":"hot dog",
+                                    "image":"picture/63.jpg",
+                                    "name":"Hot Dog - C.Y.O ",
+                                    "pieces":"450 Kcal",
+                                    "description":"Start with an all-beef frankfurter and top it your way! Go ahead and try to think up an order we haven’t heard yet. We double-dog dare you.",
+                                    "price":"60 DH",
+                                    "rating":"4.8"
+                                    
+                                },
+                                {
+                                    "id":"gardenburgere",
+                                    "image":"picture/64.jpg",
+                                    "name":"Gardenburgere - C.Y.O",
+                                    "pieces":"340 Kcal",
+                                    "description":"Not a big beef person? No problem! Begin with a Gardenburger, made with natural vegetables and grains, and customize it however you like!",
+                                    "price":"57 DH",
+                                    "rating":"4.9"
+                                    
+                                },
+                                {
+                                    "id":"grilled chicken",
+                                    "image":"picture/65.jpg",
+                                    "name":"Grilled Chicken - C.Y.O ",
+                                    "pieces":"300 Kcal",
+                                    "description":"Chicken served hot in between two buns. We can’t say what combination of toppings is best, but we can promise you’ll love it .",
+                                    "price":"60 DH",
+                                    "rating":"4.9"
+                            
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id":"on the side",
+                    "name":"On The Side",
+                    "subcategories":[
+                        {
+                            "id":"on the side",
+                            "name":"On The Side",
+                            "products":[
+                                {
+                                    "id":"cajun tater tots",
+                                    "image":"picture/66.jpg",
+                                    "name":"Cajun Tater Tots",
+                                    "pieces":"450 Kcal",
+                                    "description":"Crispy tater tots tossed in cajun seasoning with a creole remoulade dipping sauce!",
+                                    "price":"43 DH",
+                                    "rating":"4.9"
+                                    
+                                },
+                                {
+                                    "id":"tater tots",
+                                    "image":"picture/67.jpg",
+                                    "name":"Tater Tots ",
+                                    "pieces":"450 Kcal",
+                                    "description":"Our crispy Tater Tots with a burger make a great meal–try with a dipping sauce or Ketchup from Heinz",
+                                    "price":"43 DH",
+                                    "rating":"4.8"
+                                    
+                                },
+                                {
+                                    "id":"bacon cheese fries ",
+                                    "image":"picture/68.jpg",
+                                    "name":"Bacon Cheese Fries",
+                                    "pieces":"510 Kcal",
+                                    "description":"Our fries topped with a generous portion of melty cheese sauce and a layer of chopped bacon.",
+                                    "price":"40 DH",
+                                    "rating":"4.9"
+                                    
+                                },
+                                {
+                                    "id":"the big easy",
+                                    "image":"picture/69.jpg",
+                                    "name":"The Big Easy",
+                                    "pieces":"1010 Kcal",
+                                    "description":"A crispy,bite-sized delight combining the comfort of mac&cheese with the irresistible appeal of fried goodness",
+                                    "price":"50 DH",
+                                    "rating":"4.9"
+                            
+                                },
+                                {
+                                    "id":"onion rings ",
+                                    "image":"picture/70.jpg",
+                                    "name":"Onion Rings ",
+                                    "pieces":"500 Kcal",
+                                    "description":"Crispy battered rings with a side of whichever dipping sauce you’d like or Ketchup from Heinz",
+                                    "price":"30 DH",
+                                    "rating":"4.9"
+                                    
+                                },
+                                {
+                                    "id":"chili cheese fries",
+                                    "image":"picture/71.jpg",
+                                    "name":"Chili Cheese Fries",
+                                    "pieces":"510 Kcal",
+                                    "description":"Our traditional French Fries topped with Chili and melty cheese sauce. Think that’s too much for a side? NO!",
+                                    "price":"45 DH",
+                                    "rating":"4.8"
+                                    
+                                },
+                                {
+                                    "id":"full fry",
+                                    "image":"picture/72.jpg",
+                                    "name":"Full Fry",
+                                    "pieces":"600 Kcal",
+                                    "description":"Try fries with a dipping sauce or the rich taste of America’s Favorite Ketchup from Heinz. ",
+                                    "price":"25 DH",
+                                    "rating":"4.9"
+                                    
+                                },
+                                {
+                                    "id":"regular fry",
+                                    "image":"picture/72.jpg",
+                                    "name":"Regular Fry",
+                                    "pieces":"300 Kcal",
+                                    "description":"Try fries with a dipping sauce or the rich taste of America’s Favorite Ketchup from Heinz.",
+                                    "price":"25 DH",
+                                    "rating":"4.9"
+                            
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id":"kiddos",
+                    "name":"Kiddos",
+                    "subcategories":[
+                        {
+                            "id":"kiddos",
+                            "name":"Kiddos",
+                            "products":[
+                                {
+                                    "id":"chicken tenders",
+                                    "image":"picture/73.jpg",
+                                    "name":"Chicken Tenders",
+                                    "pieces":"360 Kcal",
+                                    "description":"FTwo Chicken Tenders, Kids Fry, and Kids drink.",
+                                    "price":"40 DH",
+                                    "rating":"4.8"
+                            
+                                },
+                                {
+                                    "id":"grilled cheese",
+                                    "image":"picture/74.jpg",
+                                    "name":"Grilled cheese",
+                                    "pieces":"380 Kcal",
+                                    "description":"Grilled Cheese, Kids Fry, and Kids drink.",
+                                    "price":"53 DH",
+                                    "rating":"4.9"
+                                    
+                                },
+                                {
+                                    "id":"kids’ cheeseburger ",
+                                    "image":"picture/75.jpg",
+                                    "name":"Kids’ Cheeseburger ",
+                                    "pieces":"390 Kcal",
+                                    "description":"Kids’Cheeseburger, Kids Fry, and Kids drink.",
+                                    "price":"50 DH",
+                                    "rating":"4.8"
+                                    
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id":"american desserts",
+                    "name":"American desserts",
+                    "subcategories":[
+                        {
+                            "id":"american desserts",
+                            "name":"American desserts",
+                            "products":[
+                                {
+                                    "id":"red velvet cheesecake",
+                                    "image":"picture/119.jpg",
+                                    "name":"Red Velvet Cheesecake",
+                                    "description":"Red velvet cheesecake with a cream Cheese Frosting ",
+                                    "price":"55 DH",
+                                    "rating":"4.9"
+                            
+                                },
+                                {
+                                    "id":"chocolate brownie sundae",
+                                    "image":"picture/116.jpg",
+                                    "name":"Chocolate Brownie Sundae",
+                                    "description":"Gooey brownie- vanilla ice cream - chocolate sauce - whipped cream",
+                                    "price":"55 DH",
+                                    "rating":"4.8"
+                                    
+                                },
+                                {
+                                    "id":"new york cheesecake ",
+                                    "image":"picture/117.jpg",
+                                    "name":"New York Cheesecake ",
+                                    "description":" A classic creamy and velvety delight with a biscuit crust",
+                                    "price":"50 DH",
+                                    "rating":"4.9"
+                                    
+                                },
+                                {
+                                    "id":"apple pie",
+                                    "image":"picture/118.jpg",
+                                    "name":"Apple Pie",
+                                    "description":"Homemade apple pie with a touch of cinnamon and crumble ",
+                                    "price":"40 DH",
+                                    "rating":"4.9"
+                                    
+                                }
+
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
