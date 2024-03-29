@@ -1,15 +1,31 @@
 // function for menus
 
-function cards(selectedCategory) {  //selectedCategory === subcategories.name
+function cards(selectedCategory) {  
+
+    //selectedCategory === subcategories.name
     const request = new XMLHttpRequest()
     request.open("GET","menus.json",true)
     request.onreadystatechange = function(){
         if (this.readyState == 4 && this.status == 200){
             const data = JSON.parse(this.responseText)
             let content = ""
-            const category = data.menus.find(menu =>menu.categories.find(categorie=>categorie.subcategories.find(subcategory=>subcategory.name === selectedCategory)))
-            
-            if(category){
+
+            let subcategories = null
+
+            for (let menu of data.menus ){
+              for (let category of menu.categories){
+                const foundSubcategory = category.subcategories.find(subcategory => subcategory.menu === selectedCategory);
+                if (foundSubcategory){
+                  subcategories = foundSubcategory
+                  break
+                }
+              }
+              if (subcategories){
+              break;
+            }
+           
+            }            
+            if(subcategories ){
                 subcategories.products.forEach(product =>{
                     content += 
                 `<div class="card" style="width: 18rem;">
