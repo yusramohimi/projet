@@ -36,6 +36,14 @@
                                     "description": "Fresh White Fish - Long Onion - Light Soy Sauce - Toasted Sesame Oil",
                                     "price": "59 DH",
                                     "rating": "4.8"
+                                },
+                                {  
+                                    "id":"mixed tartare",
+                                    "image": "picture/mixed-tartare.jpg",
+                                    "name": "Mixed tartare",
+                                    "description": "Fresh Salmon - Fresh Tuna - Light Soy Sauce - Toasted Sesame Oil - Flaked Almond",
+                                    "price": "59 DH",
+                                    "rating": "4.8"
                                 }
 
                             ]
@@ -78,7 +86,7 @@
                                     "pieces": "6pcs",
                                     "description": "Fresh Salmon - Served with wasabi,pickled ginger , and soy sauce",
                                     "price": "65 DH",
-                                    "rating": "4.9"
+                                    "rating": "4.9" 
                                 },
                                 {   
                                     "id":"assortment of sashimi",
@@ -147,7 +155,7 @@
                                 },
                                 {   
                                     "id":"shrimp noodles soup",
-                                    "image": "picture/sashimi-saumon2.jpg",
+                                    "image": "picture/nouille.jpg",
                                     "name": "Shrimp Noodles Soup",
                                     "description": "Noodles - Shrimp - Eggs - Sesame - Seaweed",
                                     "price": " 64 DH",
@@ -294,7 +302,7 @@
                                 },
                                 {
                                     "id":"avocado maki",
-                                    "image":"picture/maki saumon.png",
+                                    "image":"picture/avocat.png",
                                     "name":"Avocado Maki",
                                     "pieces":"6pcs",
                                     "description":"Rice - Creamy Avocado",
@@ -319,7 +327,7 @@
                                 {
                                     "id":"ebi fry",
                                     "image":"picture/EBI-FRY.png",
-                                    "name":"Ebi Tobiko",
+                                    "name":"Ebi Fry",
                                     "pieces":"4pcs",
                                     "description":"Shrimp - Avocado - Cream Cheese - Chives ",
                                     "price":"35 DH",
@@ -375,7 +383,7 @@
                                     "image":"picture/creame-cheese.png",
                                     "name":"Creame Cheese",
                                     "pieces":"4pcs",
-                                    "description":">Salmon - Surimi - Avocado - Cream Cheese - Tobiko",
+                                    "description":"Salmon - Surimi - Avocado - Cream Cheese - Tobiko",
                                     "price":"35 DH",
                                     "rating":"4.8"
                                 }
@@ -439,7 +447,7 @@
                     "subcategories":[
                         {
                             "id":"burgers",
-                            "name":"burgers",
+                            "name":"Burgers",
                             "products":[
                                 {
                                     "id":"classic burger",
@@ -738,6 +746,16 @@
                                     "price":"50 DH",
                                     "rating":"4.8"
                                     
+                                },
+                                {
+                                    "id":"mini hot dog ",
+                                    "image":"picture/mini-hot-dog.jpg",
+                                    "name":"Mini Hot Dog ",
+                                    "pieces":"350 Kcal",
+                                    "description":"Kids’ hot dog, Kids Fry, and Kids drink.",
+                                    "price":"50 DH",
+                                    "rating":"4.8"
+                                    
                                 }
                             ]
                         }
@@ -793,6 +811,255 @@
                     ]
                 }
             ]
+        },
+        {
+            "id":"italian",
+            "name":"Italian Menu",
+            "categories":[
+                {
+                    "id":"salad",
+                    "name":"Salad",
+                    "subcategories":[
+                        {
+                            "id":"salad",
+                            "name":"Salad",
+                            "products":[
+                                {
+                                    "id":"burrata Salad",
+                                    "image":"picture/81.jpg",
+                                    "name":"Burrata Salad",
+                                    "description":"Burrata - Tomatoes - Peaches - Salad Leaves - Onion - Basil - Walnuts - Balsamic Glaze - Olive Oil ",
+                                    "price":"79 DH",
+                                    "rating":"4.9"
+                                },
+                                {
+                                    "id":"pesto caprese salad",
+                                    "image":"picture/84.jpg",
+                                    "name":"Pesto Caprese Salad",
+                                    "description":"Tomatoes - Pesto Sauce - Basil - Balsamic Glaze - Olive Oil",
+                                    "price":"50 DH",
+                                    "rating":"4.8"
+                                },
+                                {
+                                    "id":"chicken caesar salad",
+                                    "image":"picture/88.jpg",
+                                    "name":"Chicken Caesar Salad",
+                                    "description":" Tomatoes - Grilled Chicken - Romaine lettuce - Croutons - Gratted Parmesan Cheese - Caesar dressing",
+                                    "price":"59 DH",
+                                    "rating":"4.9"
+                                },
+                                {
+                                    "id":"shrimp caesar salad",
+                                    "image":"picture/90.jpg",
+                                    "name":"Shrimp Caesar Salad",
+                                    "description":"Tomatoes - Grilled Shrimp - Romaine lettuce - Croutons - Gratted Parmesan Cheese - Caesar dressing",
+                                    "price":"65 DH",
+                                    "rating":"4.9"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id":"pizza",
+                    "name":"Pizza",
+                    "subcategories":[
+                        {
+                            "id":"pizza",
+                            "name":"Pizza",
+                            "products":[
+                                {
+                                    "id":"chicken caesar pizza",
+                                    "image":"picture/96.jpg",
+                                    "name":"Chicken caesar Pizza",
+                                    "description":"Chicken - Caesar dressing - mozzarella - Parmesan cheese - Romaine lettuce - Cherry tomatoes",
+                                    "price":"79 DH",
+                                    "rating":"4.9"
+                                },
+                                {
+                                    "id":"burrata pizza",
+                                    "image":"picture/92.jpg",
+                                    "name":"Burrata Pizza",
+                                    "description":"Tomato sauce - Mozzarella - Burrata - Cherry tomatoes - Arugula - Parmesan - Pesto",
+                                    "price":" 79 DH",
+                                    "rating":"4.8"
+                                },
+                                {
+                                    "id":"five cheese pizza",
+                                    "image":"picture/93.jpg",
+                                    "name":"Five Cheese Pizza",
+                                    "description":"Parmesan cream - Goat cheese - Gorgonzola - Mozzarella - Parmesan - Ricotta",
+                                    "price":"75 DH",
+                                    "rating":"4.8"
+                                },
+                                {
+                                    "id":"carbonara pizza",
+                                    "image":"picture/94.jpg",
+                                    "name":"Carbonara Pizza",
+                                    "description":"Creamy sauce - Mozzarella cheese - Turkey Ham -<br> Parmesan cheese",
+                                    "price":"70 DH",
+                                    "rating":"4.9"
+                                },
+                                {
+                                    "id":"margherita Pizza",
+                                    "image":"picture/95.jpg",
+                                    "name":"Margherita Pizza",
+                                    "description":"Tomato sauce - Mozzarella Cheese - Basil - Oregano",
+                                    "price":" 45 DH",
+                                    "rating":"4.9"
+                                },
+                                {
+                                    "id":"pizza frutti di mare ",
+                                    "image":"picture/91.jpg" ,
+                                    "name":"Pizza Frutti Di Mare ",
+                                    "description":"tomato sauce - mozzarella - mussels - clams - shrimp - squid - Oregano",
+                                    "price":"95 DH",
+                                    "rating":"4.9"
+                                },
+                                {
+                                    "id":"pepperoni pizza",
+                                    "image":"picture/98.jpg",
+                                    "name":"Pepperoni Pizza",
+                                    "description":"Tomato sauce - Mozzarella cheese - Sliced pepperoni - Oregano - Olive oil ",
+                                    "price":"79 DH",
+                                    "rating":"4.9"
+                                },
+                                {
+                                    "id":"salmon pizza",
+                                    "image":"picture/99.jpg",
+                                    "name":"Salmon Pizza",
+                                    "description":"Tomato sauce - Mozzarella - Smoked salmon - Arugula (rocket) - Parmesan",
+                                    "price":"105 DH",
+                                    "rating":"4.9"
+                                }
+                            
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id":"pasta",
+                    "name":"Pasta",
+                    "subcategories":[
+                        {
+                            "id":"pasta",
+                            "name":"Pasta",
+                            "products":[
+                                {
+                                    "id":"spaghetti alle bolognese",
+                                    "image":"picture/100.jpg",
+                                    "name":"Spaghetti Alle Bolognese",
+                                    "description":"Bolognese sauce - Ground meat - Parmesan cheese",
+                                    "price":"65 DH",
+                                    "rating":"4.9"
+                                },
+                                {
+                                    "id":"spaghetti pomodoro",
+                                    "image":"picture/101.jpg",
+                                    "name":"Spaghetti Pomodoro",
+                                    "description":"Homemade Tomato sauce - Burrata - Cherry tomatoes - Basil",
+                                    "price":"59 DH",
+                                    "rating":"4.8"
+                                },
+                                {
+                                    "id":"salmon pasta",
+                                    "image":"picture/102.jpg",
+                                    "name":"Salmon pasta",
+                                    "description":"Creamy pink sauce - salmon - Parmesan cheese",
+                                    "price":"90 DH",
+                                    "rating":"4.8"
+                                },
+                                {
+                                    "id":"creamy shrimp pink pasta",
+                                    "image":"picture/104.jpg",
+                                    "name":"Creamy shrimp pink pasta",
+                                    "description":"Creamy pink sauce - Shrimp - Parmesan cheese",
+                                    "price":"79 DH",
+                                    "rating":"4.9"
+                                },
+                                {
+                                    "id":"pesto shrimp pasta",
+                                    "image":"picture/103.jpg",
+                                    "name":"Pesto shrimp pasta",
+                                    "description":"Pesto sauce - Parmesan - Shrimp - Cherry tomatoes ",
+                                    "price":"79 DH",
+                                    "rating":"4.9"
+                                },
+                                {
+                                    "id":"primavera pasta",
+                                    "image":"picture/105.jpg",
+                                    "name":"Primavera pasta",
+                                    "description":"Broccoli florets - Carrots - Peas - Basil - Parmesan ",
+                                    "price":"59 DH",
+                                    "rating":"4.8"
+                                },
+                                {
+                                    "id":"frutti di mare pasta",
+                                    "image":"picture/106.jpg",
+                                    "name":"Frutti Di Mare pasta",
+                                    "description":"Clams - mussels - prawns - squid - garlic",
+                                    "price":"95 DH",
+                                    "rating":"4.9"
+                                },
+                                {
+                                    "id":"lasagna classica",
+                                    "image":"picture/107.jpg",
+                                    "name":"Lasagna Classica",
+                                    "description":"Tomato sauce - Mozzarella - Ground meat - Parmesan cheese",
+                                    "price":"75 DH",
+                                    "rating":"4.9"
+                                }
+                            
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id":"dolci italiani",
+                    "name":"Dolci italiani",
+                    "subcategories":[
+                        {
+                            "id":"dolci italiani",
+                            "name":"Dolci italiani",
+                            "products":[
+                                {
+                                    "id":"sicilian cannoli",
+                                    "image":"picture/110.jpg",
+                                    "name":"Sicilian Cannoli",
+                                    "description":"Fried pastry tubes filled with sweet ricotta",
+                                    "price":"45 DH",
+                                    "rating":"4.9"
+                                },
+                                {
+                                    "id":"red fruits panna cotta",
+                                    "image":"picture/109.jpg",
+                                    "name":"Red fruits Panna Cotta",
+                                    "description":"Cooked cream topped with a compote of red fruits - fresh red fruits",
+                                    "price":"40 DH",
+                                    "rating":"4.8"
+                                },
+                                {
+                                    "id":"classic tiramisu",
+                                    "image":"picture/108.jpg",
+                                    "name":"Classic Tiramisu",
+                                    "description":" ayers of coffee-soaked ladyfingers - mascarpone - and cocoa",
+                                    "price":"45 DH",
+                                    "rating":"4.9"
+                                },
+                                {
+                                    "id":"strawberry tiramisu",
+                                    "image":"picture/111.jpg",
+                                    "name":"Strawberry Tiramisu",
+                                    "description":"A fruity variation of the traditional Italian tiramisu",
+                                    "price":"50 DH",
+                                    "rating":"4.9"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+
         }
     ]
 }

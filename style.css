@@ -1368,17 +1368,18 @@ footer .name i{
     margin: 30px;
      /* text-decoration: underline;  */
 }
- .asian-row{
+ /* .asian-row{
       display: flex;  
      justify-content: center;
     gap: 50px; 
 
-} 
+}  */
 
 .asian-col{
     display: flex;
-    flex-direction: column;
-    gap: 50px;
+    /* flex-direction: column; */
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 .card-body{

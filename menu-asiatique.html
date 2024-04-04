@@ -48,602 +48,96 @@
     <div class="asian-menu-head">
         <h1>東京の食の旅</h1>
     </div>
-    <!-- <h2 class="asian-titre">________Appetizers________</h2>
-    <h3 class="food-categorie">TARTARES</h3> -->
     <div class="container">
         <h2 class="asian-titre">________Appetizers________</h2>
         <h3 class="food-categorie">TARTARES</h3>
-        <div class="asian-col" >
-            <div class="asian-row">
+        <div class="asian-col" id="asian-col-tartares">
               <script>
-
                 document.addEventListener("DOMContentLoaded",function(event){
-                  cards('TARTARES');
+                  cards('TARTARES','asian-col-tartares');
                 })
               </script>
-            </div>
         </div>
     </div>
+
     <div class="container">
       <h3 class="food-categorie">SASHIMI & TATAKI</h3>
-        <div class="asian-col">
-            <div class="asian-row">
-                <div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="picture/tataki-saumon.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Salmon Tataki <span>(6pcs)</span></h5>
-                          <p class="card-text">Salmon - Teryaki Sauce - Soy Sauce - Toasted Sesame Oil - Ginger - Sesame</p>
-                          <div class="price-rating">
-                            <h5><i class="fa-solid fa-dollar-sign"></i> 69 DH</h5>
-                            <h5><i class="fa-regular fa-star"></i> 4.9</h5>
-                          </div>
-                          <button class="order-button">Order Now <i class="fa-solid fa-cart-shopping"></i></button>
-                        </div>
-                    </div> 
-                </div>
-                <div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="picture/tataki-thon.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Tuna Tataki <span>(6pcs)</span></h5>
-                            <p class="card-text"> Tune - Teryaki Sauce - Soy Sauce - Toasted Sesame Oil - Ginger - Sesame</p>
-                            <div class="price-rating">
-                                <h5><i class="fa-solid fa-dollar-sign"></i> 69 DH</h5>
-                                <h5><i class="fa-regular fa-star"></i> 4.8</h5>
-                            </div>
-                            <button class="order-button">Order Now <i class="fa-solid fa-cart-shopping"></i></button>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="picture/sashimi-thon3.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Tuna Sashimi <span>(6pcs)</span></h5>
-                          <p class="card-text">Fresh Tune - Served with wasabi,pickled ginger , and soy sauce</p>
-                          <div class="price-rating">
-                            <h5><i class="fa-solid fa-dollar-sign"></i> 65 DH</h5>
-                            <h5><i class="fa-regular fa-star"></i> 4.7</h5>
-                          </div>
-                          <button class="order-button">Order Now <i class="fa-solid fa-cart-shopping"></i></button>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="picture/sashimi-saumon2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Salmon Sashimi <span>(6pcs)</span></h5>
-                          <p class="card-text">Fresh Salmon - Served with wasabi,pickled ginger , and soy sauce</p>
-                          <div class="price-rating">
-                            <h5><i class="fa-solid fa-dollar-sign"></i> 65 DH</h5>
-                            <h5><i class="fa-regular fa-star"></i> 4.9</h5>
-                          </div>
-                          <button class="order-button">Order Now <i class="fa-solid fa-cart-shopping"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="asian-row">
-                <div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="picture/assortiment-sashimi3.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Assortment of Sashimi <span>(35pcs)</span></h5>
-                          <p class="card-text">Fresh Tune - Fresh Salmon - Fresh White Fish Served with soya sauce</p>
-                          <div class="price-rating">
-                            <h5><i class="fa-solid fa-dollar-sign"></i> 299 DH</h5>
-                            <h5><i class="fa-regular fa-star"></i> 4.8</h5>
-                          </div>
-                          <button class="order-button">Order Now <i class="fa-solid fa-cart-shopping"></i></button>
-                        </div>
-                    </div> 
-                </div>
-                <div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="picture/chirashi-saumon.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Salmon Chirashi</h5>
-                          <p class="card-text">Fresh Salmon - Rize - Sesame - Toasted Sesame Oil - wasabi - Light soya Sauce</p>
-                          <div class="price-rating">
-                            <h5><i class="fa-solid fa-dollar-sign"></i> 75 DH</h5>
-                            <h5><i class="fa-regular fa-star"></i> 4.8</h5>
-                          </div>
-                          <button class="order-button">Order Now <i class="fa-solid fa-cart-shopping"></i></button>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="picture/chirashi-saumon-avocat.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Salmon Avocado Chirashi</h5>
-                          <p class="card-text">Fresh Salmon - Creamy Avocado - Rize - Sesame - Toasted Sesame Oil - Light soya Sauce</p>
-                          <div class="price-rating">
-                            <h5><i class="fa-solid fa-dollar-sign"></i> 79 DH</h5>
-                            <h5><i class="fa-regular fa-star"></i> 4.9</h5>
-                          </div>
-                          <button class="order-button">Order Now <i class="fa-solid fa-cart-shopping"></i></button>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="picture/chirashi-mixte.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Mixed Chirashi</h5>
-                          <p class="card-text">Fresh Tune - Fresh Salmon - Creamy Avocado - Light Soy Sauce - Toasted Sesame Oil</p>
-                          <div class="price-rating">
-                            <h5><i class="fa-solid fa-dollar-sign"></i> 89 DH</h5>
-                            <h5><i class="fa-regular fa-star"></i> 4.9</h5>
-                          </div>
-                          <button class="order-button">Order Now <i class="fa-solid fa-cart-shopping"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
+      <div class="asian-col" id="asian-col-sashimi-tataki">
+          <script>
+            document.addEventListener("DOMContentLoaded",function(event){
+              cards('SASHIMI & TATAKI','asian-col-sashimi-tataki');
+            })
+          </script>
+      </div>
     </div>
-    <!-- <h3 class="food-categorie">SOUP</h3> -->
+
     <div class="container">
       <h3 class="food-categorie">SOUP</h3>
-        <div class="asian-col" >
-            <div class="asian-row">
-                <div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="picture/miso.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Miso Soup</h5>
-                          <p class="card-text">Tofu - Wakame - Long Onion - shitake</p>
-                          <div class="price-rating">
-                            <h5><i class="fa-solid fa-dollar-sign"></i> 30 DH</h5>
-                            <h5><i class="fa-regular fa-star"></i> 4.8</h5>
-                          </div>
-                        <button class="order-button">Order Now <i class="fa-solid fa-cart-shopping"></i></button>
-                          
-                          
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="picture/tom khai kai.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Tom Khai Kai Soup</h5>
-                          <p class="card-text">Coconut milk - Shrimp - Mushrooms</p>
-                          <div class="price-rating">
-                            <h5><i class="fa-solid fa-dollar-sign"></i> 64 DH</h5>
-                            <h5><i class="fa-regular fa-star"></i> 4.9</h5>
-                          </div>
-                          <button class="order-button">Order Now <i class="fa-solid fa-cart-shopping"></i></button>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="picture/tom yum.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Tom Yum Soup</h5>
-                          <p class="card-text">Shrimp - Mushrooms - Tomato - Lemon</p>
-                          <div class="price-rating">
-                            <h5><i class="fa-solid fa-dollar-sign"></i> 59 DH</h5>
-                            <h5><i class="fa-regular fa-star"></i> 4.8</h5>
-                          </div>
-                          <button class="order-button">Order Now <i class="fa-solid fa-cart-shopping"></i></button>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="picture/nouille.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Shrimp Noodles Soup</h5>
-                          <p class="card-text">Noodles - Shrimp - Eggs - Sesame - Seaweed</p>
-                          <div class="price-rating">
-                            <h5><i class="fa-solid fa-dollar-sign"></i> 64 DH</h5>
-                            <h5><i class="fa-regular fa-star"></i> 4.9</h5>
-                          </div>
-                          <button class="order-button">Order Now <i class="fa-solid fa-cart-shopping"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      <div class="asian-col"  id="asian-col-soup"  >
+          <script>
+            document.addEventListener("DOMContentLoaded",function(event){
+              cards('Soup','asian-col-soup');
+            })
+          </script>
+      </div>
     </div>
-    <!-- <h2 class="asian-titre">________Asian Tapas________</h2>
-    <h3 class="food-categorie">SPRING ROLLS</h3> -->
+
     <div class="container">
       <h2 class="asian-titre">________Asian Tapas________</h2>
       <h3 class="food-categorie">SPRING ROLLS</h3>
-      <div class="asian-col" >
-          <div class="asian-row">
-              <div>
-                  <div class="card" style="width: 18rem;">
-                      <img src="picture/Srolls poulet.jpg" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Chicken S.R <span>(8pcs)</span></h5>
-                        <p class="card-text">Rice paper wrappers - Chicken - Rice Vermicelli - Vegatables</p>
-                        <div class="price-rating">
-                          <h5><i class="fa-solid fa-dollar-sign"></i> 45 DH</h5>
-                          <h5><i class="fa-regular fa-star"></i> 4.8</h5>
-                        </div>
-                      <button class="order-button">Order Now <i class="fa-solid fa-cart-shopping"></i></button>
-                        
-                        
-                      </div>
-                  </div>
-              </div>
-              <div>
-                  <div class="card" style="width: 18rem;">
-                      <img src="picture/Srolls crevettte.jpg" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Shrimp S.R <span>(8pcs)</span></h5>
-                        <p class="card-text">Rice paper wrappers - Shrimp - Rice Vermicelli - Crunchy Vegatables</p>
-                        <div class="price-rating">
-                          <h5><i class="fa-solid fa-dollar-sign"></i> 50 DH</h5>
-                          <h5><i class="fa-regular fa-star"></i> 4.9</h5>
-                        </div>
-                        <button class="order-button">Order Now <i class="fa-solid fa-cart-shopping"></i></button>
-                      </div>
-                  </div>
-              </div>
-              <div>
-                  <div class="card" style="width: 18rem;">
-                      <img src="picture/Srolls vegan.jpg" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Vegan S.R <span>(8pcs)</span></h5>
-                        <p class="card-text">Rice paper wrappers - Crunchy Vegatables</p>
-                        <div class="price-rating">
-                          <h5><i class="fa-solid fa-dollar-sign"></i> 32 DH</h5>
-                          <h5><i class="fa-regular fa-star"></i> 4.8</h5>
-                        </div>
-                        <button class="order-button">Order Now <i class="fa-solid fa-cart-shopping"></i></button>
-                      </div>
-                  </div>
-              </div>
-              <div>
-                  <div class="card" style="width: 18rem;">
-                      <img src="picture/Srolls saumon fume.jpg" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Smoked Salmon S.R <span>(8pcs)</span></h5>
-                        <p class="card-text">Rice paper wrappers - smoked Salmon - Rice Vermicelli </p>
-                        <div class="price-rating">
-                          <h5><i class="fa-solid fa-dollar-sign"></i> 50 DH</h5>
-                          <h5><i class="fa-regular fa-star"></i> 4.9</h5>
-                        </div>
-                        <button class="order-button">Order Now <i class="fa-solid fa-cart-shopping"></i></button>
-                      </div>
-                  </div>
-              </div>
-          </div>
+      <div class="asian-col" id="asian-col-spring-rolls" >
+        <script>
+          document.addEventListener("DOMContentLoaded",function(event){
+            cards('SPRING ROLLS','asian-col-spring-rolls');
+          })
+        </script>
       </div>
   </div>
-  <!-- <h2 class="asian-titre">________<span>WorldFlavors Hub</span> Creations________</h2> -->
   <div class="container">
     <h2 class="asian-titre">________<span>WorldFlavors Hub</span> Creations________</h2>
-    <div class="asian-col" >
-        <div class="asian-row">
-            <div>
-                <div class="card" style="width: 18rem;">
-                    <img src="picture/rainbow roll.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Rainbow Roll <span>(8pcs)</span></h5>
-                      <p class="card-text">Salmon - Surimi - Shrimp - Mango - Avocado - Cream Cheese</p>
-                      <div class="price-rating">
-                        <h5><i class="fa-solid fa-dollar-sign"></i> 69 DH</h5>
-                        <h5><i class="fa-regular fa-star"></i> 4.8</h5>
-                      </div>
-                    <button class="order-button">Order Now <i class="fa-solid fa-cart-shopping"></i></button>
-
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="card" style="width: 18rem;">
-                    <img src="picture/worldflavors roll.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">WorldFlavors roll <span>(8pcs)</span></h5>
-                      <p class="card-text">Salmon- Cream Cheese - Orange - Chef Sauce</p>
-                      <div class="price-rating">
-                        <h5><i class="fa-solid fa-dollar-sign"></i> 69 DH</h5>
-                        <h5><i class="fa-regular fa-star"></i> 4.9</h5>
-                      </div>
-                      <button class="order-button">Order Now <i class="fa-solid fa-cart-shopping"></i></button>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="card" style="width: 18rem;">
-                    <img src="picture/Poulet samrod.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Chicken Samrod <span>(8pcs)</span></h5>
-                      <p class="card-text">Shrimp - Cream Cheese - Surimi - Chicken - Samrod Sauce</p>
-                      <div class="price-rating">
-                        <h5><i class="fa-solid fa-dollar-sign"></i> 65 DH</h5>
-                        <h5><i class="fa-regular fa-star"></i> 4.9</h5>
-                      </div>
-                      <button class="order-button">Order Now <i class="fa-solid fa-cart-shopping"></i></button>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="card" style="width: 18rem;">
-                    <img src="picture/sushi cheese.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Sushi Cheese <span>(5pcs)</span></h5>
-                      <p class="card-text">Surimi - Shrimp - Salmon - Mozzarella - Japanese spices</p>
-                      <div class="price-rating">
-                        <h5><i class="fa-solid fa-dollar-sign"></i> 75 DH</h5>
-                        <h5><i class="fa-regular fa-star"></i> 4.9</h5>
-                      </div>
-                      <button class="order-button">Order Now <i class="fa-solid fa-cart-shopping"></i></button>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="asian-col" id="asian-col-worldFlavors-hub-creations" >
+        
+      <script>
+        document.addEventListener("DOMContentLoaded",function(event){
+          cards('WorldFlavors Hub Creations','asian-col-worldFlavors-hub-creations');
+        })
+      </script>   
+            
     </div>
   </div>
-  <!-- <h2 class="asian-titre">________Japanese Sushi________</h2>
-  <h3 class="food-categorie">MAKI</h3> -->
   <div class="container">
     <h2 class="asian-titre">________Japanese Sushi________</h2>
     <h3 class="food-categorie">MAKI</h3>
-    <div class="asian-col" >
-        <div class="asian-row">
-            <div>
-                <div class="card" style="width: 18rem;">
-                    <img src="picture/maki saumon.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Salmon Maki<span>(6pcs)</span></h5>
-                      <p class="card-text">Salmon - Rice</p>
-                      <div class="price-rating">
-                        <h5><i class="fa-solid fa-dollar-sign"></i> 39 DH</h5>
-                        <h5><i class="fa-regular fa-star"></i> 4.8</h5>
-                      </div>
-                    <button class="order-button">Order Now <i class="fa-solid fa-cart-shopping"></i></button>
-
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="card" style="width: 18rem;">
-                    <img src="picture/saumon-cheese.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Salmon Cheese Maki <span>(6pcs)</span></h5>
-                      <p class="card-text">Salmon - Cream Cheese - Rice</p>
-                      <div class="price-rating">
-                        <h5><i class="fa-solid fa-dollar-sign"></i> 45 DH</h5>
-                        <h5><i class="fa-regular fa-star"></i> 4.9</h5>
-                      </div>
-                      <button class="order-button">Order Now <i class="fa-solid fa-cart-shopping"></i></button>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="card" style="width: 18rem;">
-                    <img src="picture/crevette-pane.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Shrimp Maki <span>(6pcs)</span></h5>
-                      <p class="card-text">Shrimp - Rice</p>
-                      <div class="price-rating">
-                        <h5><i class="fa-solid fa-dollar-sign"></i> 35 DH</h5>
-                        <h5><i class="fa-regular fa-star"></i> 4.9</h5>
-                      </div>
-                      <button class="order-button">Order Now <i class="fa-solid fa-cart-shopping"></i></button>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="card" style="width: 18rem;">
-                    <img src="picture/avocat.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Avocado Maki <span>(5pcs)</span></h5>
-                      <p class="card-text">Rice - Creamy Avocado</p>
-                      <div class="price-rating">
-                        <h5><i class="fa-solid fa-dollar-sign"></i> 25 DH</h5>
-                        <h5><i class="fa-regular fa-star"></i> 4.8</h5>
-                      </div>
-                      <button class="order-button">Order Now <i class="fa-solid fa-cart-shopping"></i></button>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="asian-col" id="asian-col-maki" >
+      <script>
+        document.addEventListener("DOMContentLoaded",function(event){
+          cards('MAKI','asian-col-maki');
+        })
+      </script>
     </div>
   </div>
-  <!-- <h3 class="food-categorie">CALIFORNIE</h3> -->
   <div class="container">
     <h3 class="food-categorie">CALIFORNIE</h3>
-    <div class="asian-col" >
-        <div class="asian-row">
-          <div>
-              <div class="card" style="width: 18rem;">
-                  <img src="picture/ebitobiko.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Ebi Tobiko<span>(4pcs)</span></h5>
-                    <p class="card-text">Shrimp - Avocado - Cream Cheese - Tobiko </p>
-                    <div class="price-rating">
-                      <h5><i class="fa-solid fa-dollar-sign"></i> 39 DH</h5>
-                      <h5><i class="fa-regular fa-star"></i> 4.8</h5>
-                    </div>
-                  <button class="order-button">Order Now <i class="fa-solid fa-cart-shopping"></i></button>
-
-                  </div>
-              </div>
-          </div>
-          <div>
-              <div class="card" style="width: 18rem;">
-                  <img src="picture/EBI-FRY.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Ebi Fry <span>(4pcs)</span></h5>
-                    <p class="card-text">Shrimp - Avocado - Cream Cheese - Chives </p>
-                    <div class="price-rating">
-                      <h5><i class="fa-solid fa-dollar-sign"></i> 35 DH</h5>
-                      <h5><i class="fa-regular fa-star"></i> 4.9</h5>
-                    </div>
-                    <button class="order-button">Order Now <i class="fa-solid fa-cart-shopping"></i></button>
-                  </div>
-              </div>
-          </div>
-          <div>
-              <div class="card" style="width: 18rem;">
-                  <img src="picture/shake-spicy-600x600.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Shake Spicy <span>(4pcs)</span></h5>
-                    <p class="card-text">Salmon - Avocado - Shishimi </p>
-                    <div class="price-rating">
-                      <h5><i class="fa-solid fa-dollar-sign"></i> 39 DH</h5>
-                      <h5><i class="fa-regular fa-star"></i> 4.9</h5>
-                    </div>
-                    <button class="order-button">Order Now <i class="fa-solid fa-cart-shopping"></i></button>
-                  </div>
-              </div>
-          </div>
-          <div>
-              <div class="card" style="width: 18rem;">
-                  <img src="picture/SHAKE-YAKI.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Shake Yaki <span>(4pcs)</span></h5>
-                    <p class="card-text">Cooked Salmon - Avocado - Massago</p>
-                    <div class="price-rating">
-                      <h5><i class="fa-solid fa-dollar-sign"></i> 35 DH</h5>
-                      <h5><i class="fa-regular fa-star"></i> 4.8</h5>
-                    </div>
-                    <button class="order-button">Order Now <i class="fa-solid fa-cart-shopping"></i></button>
-                  </div>
-              </div>
-          </div>
-      </div>
-      <div class="asian-row">
-        <div>
-            <div class="card" style="width: 18rem;">
-                <img src="picture/classic-.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Classic<span>(4pcs)</span></h5>
-                  <p class="card-text">Surimi - Cucumber - Avocado - Massago</p>
-                  <div class="price-rating">
-                    <h5><i class="fa-solid fa-dollar-sign"></i> 29 DH</h5>
-                    <h5><i class="fa-regular fa-star"></i> 4.8</h5>
-                  </div>
-                <button class="order-button">Order Now <i class="fa-solid fa-cart-shopping"></i></button>
-
-                </div>
-            </div>
-        </div>
-        <div>
-            <div class="card" style="width: 18rem;">
-                <img src="picture/boston.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Boston <span>(4pcs)</span></h5>
-                  <p class="card-text">Shrimp - Crab - Cream Cheese - Tobiko</p>
-                  <div class="price-rating">
-                    <h5><i class="fa-solid fa-dollar-sign"></i> 39 DH</h5>
-                    <h5><i class="fa-regular fa-star"></i> 4.9</h5>
-                  </div>
-                  <button class="order-button">Order Now <i class="fa-solid fa-cart-shopping"></i></button>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div class="card" style="width: 18rem;">
-                <img src="picture/SHAKE.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Shake <span>(4pcs)</span></h5>
-                  <p class="card-text">Salmon - Avocado - Sesame Seed</p>
-                  <div class="price-rating">
-                    <h5><i class="fa-solid fa-dollar-sign"></i> 39 DH</h5>
-                    <h5><i class="fa-regular fa-star"></i> 4.9</h5>
-                  </div>
-                  <button class="order-button">Order Now <i class="fa-solid fa-cart-shopping"></i></button>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div class="card" style="width: 18rem;">
-                <img src="picture/creame-cheese.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Creame Cheese <span>(4pcs)</span></h5>
-                  <p class="card-text">Salmon - Surimi - Avocado - Cream Cheese - Tobiko</p>
-                  <div class="price-rating">
-                    <h5><i class="fa-solid fa-dollar-sign"></i> 35 DH</h5>
-                    <h5><i class="fa-regular fa-star"></i> 4.8</h5>
-                  </div>
-                  <button class="order-button">Order Now <i class="fa-solid fa-cart-shopping"></i></button>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
+    <div class="asian-col" id="asian-col-californie" >
+      <script>
+        document.addEventListener("DOMContentLoaded",function(event){
+          cards('CALIFORNIE','asian-col-californie');
+        })
+      </script>
+    </div> 
   </div>
-  <!-- <h2 class="asian-titre">________Asian desserts________</h2> -->
+
     <div class="container">
       <h2 class="asian-titre">________Asian desserts________</h2>
-      <div class="asian-col">
-          <div class="asian-row">
-              <div>
-                  <div class="card" style="width: 18rem;">
-                      <img src="picture/112.jpg" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Green Tea Ice Cream Mochi</h5>
-                        <p class="card-text"> Glutinous rice balls filled with green tea ice cream. </p>
-                        <div class="price-rating">
-                          <h5><i class="fa-solid fa-dollar-sign"></i> 45 DH</h5>
-                          <h5><i class="fa-regular fa-star"></i> 4.9</h5>
-                        </div>
-                        <button class="order-button">Order Now <i class="fa-solid fa-cart-shopping"></i></button>
-                      </div>
-                  </div> 
-              </div>
-              <div>
-                  <div class="card" style="width: 18rem;">
-                      <img src="picture/113.jpg" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Anmitsu</h5>
-                        <p class="card-text">Agar-agar jelly with sweet red beans and fruits</p>
-                        <div class="price-rating">
-                          <h5><i class="fa-solid fa-dollar-sign"></i> 45 DH</h5>
-                          <h5><i class="fa-regular fa-star"></i> 4.8</h5>
-                        </div>
-                        <button class="order-button">Order Now <i class="fa-solid fa-cart-shopping"></i></button>
-                      </div>
-                  </div>
-              </div>
-              <div>
-                  <div class="card" style="width: 18rem;">
-                      <img src="picture/114.jpg" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Dorayaki</h5>
-                        <p class="card-text"> Soft pancakes filled with red bean paste</p>
-                        <div class="price-rating">
-                          <h5><i class="fa-solid fa-dollar-sign"></i> 45 DH</h5>
-                          <h5><i class="fa-regular fa-star"></i> 4.9</h5>
-                        </div>
-                        <button class="order-button">Order Now <i class="fa-solid fa-cart-shopping"></i></button>
-                      </div>
-                  </div>
-              </div>
-              <div>
-                  <div class="card" style="width: 18rem;">
-                      <img src="picture/115.jpg" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Bánh Flan</h5>
-                        <p class="card-text">A Vietnamese version of crème caramel rich in coconut milk flavors</p>
-                        <div class="price-rating">
-                          <h5><i class="fa-solid fa-dollar-sign"></i> 35 DH</h5>
-                          <h5><i class="fa-regular fa-star"></i> 4.9</h5>
-                        </div>
-                        <button class="order-button">Order Now <i class="fa-solid fa-cart-shopping"></i></button>
-                      </div>
-                  </div>
-              </div>
-          </div>
+      <div class="asian-col" id="asian-col-asian-desserts">
+        <script>
+          document.addEventListener("DOMContentLoaded",function(event){
+            cards('Asian desserts','asian-col-asian-desserts');
+          })
+        </script>
 
       </div>
   </div>
-
-
-
 
   <footer>
     <div class="waves">
